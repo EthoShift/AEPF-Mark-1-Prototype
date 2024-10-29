@@ -1,0 +1,17 @@
+{
+  "test_id": "004",
+  "timestamp": "2024-10-29T20:24:42.506776",
+  "test_name": "core_system_test",
+  "status": "failed",
+  "components_tested": [
+    "ContextEngine",
+    "EthicalGovernor",
+    "AccountabilityPrism"
+  ],
+  "results": {},
+  "errors": [
+    "'StakeholderData' object has no attribute 'data'"
+  ],
+  "performance_metrics": {},
+  "context_snapshot": {}
+}

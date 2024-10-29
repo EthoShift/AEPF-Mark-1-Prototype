@@ -1,0 +1,79 @@
+{
+  "test_id": "002",
+  "timestamp": "2024-10-29T19:58:35.116002",
+  "test_name": "core_system_test",
+  "status": "completed",
+  "components_tested": [
+    "ContextEngine",
+    "EthicalGovernor",
+    "AccountabilityPrism"
+  ],
+  "results": {
+    "context_management": {
+      "status": "success",
+      "context_analysis": {
+        "total_keys": 2,
+        "keys": [
+          "stakeholder_1",
+          "metric_system_reliability_2024-10-29T19:58:35.131589"
+        ],
+        "history_length": 2
+      }
+    },
+    "ethical_evaluation": {
+      "status": "success",
+      "decision": "EthicalDecision(decision_id='decision_1', recommendation='APPROVE', confidence_score=0.825, prism_scores={'human': 0.75, 'sentient': 0.8, 'eco': 0.85, 'innovation': 0.9}, context_snapshot={'stakeholder': ContextEntry(entry_type='stakeholder', data=StakeholderData(id=1, name='Test User', role=<StakeholderRole.USER: 'user'>, region='North America', priority_level=2, impact_score=75.0), metadata=None), 'system_metrics': ContextEntry(entry_type='metric', data=RealTimeMetrics(metric_name='system_reliability', value=95.5, timestamp=datetime.datetime(2024, 10, 29, 19, 58, 35, 131589), source=<MetricSource.SENSOR: 'sensor'>), metadata=None), 'urgency_level': 'high'}, reasoning=['Ensure user consent', 'Provide clear documentation', 'Monitor stress indicators', 'Provide adaptation period', 'Document learnings', 'Plan for scalability'])"
+    },
+    "accountability_tracking": {
+      "status": "success",
+      "review_data": {
+        "decision_id": 1,
+        "timestamp": "2024-10-29T19:58:35.131589",
+        "context": {
+          "stakeholder": {
+            "entry_type": "stakeholder",
+            "data": {
+              "id": 1,
+              "name": "Test User",
+              "role": "user",
+              "region": "North America",
+              "priority_level": 2,
+              "impact_score": 75.0
+            },
+            "metadata": null,
+            "id": "stakeholder_1"
+          },
+          "system_metrics": {
+            "entry_type": "metric",
+            "data": {
+              "metric_name": "system_reliability",
+              "value": 95.5,
+              "timestamp": "2024-10-29T19:58:35.131589",
+              "source": "sensor"
+            },
+            "metadata": null,
+            "id": "metric_system_reliability_2024-10-29T19:58:35.131589"
+          },
+          "urgency_level": "high"
+        },
+        "rationale": "System update required for security",
+        "responsible_entity": "supervisor",
+        "impact_level": "medium",
+        "review_status": "pending",
+        "explanation": "Decision Context: {'stakeholder': ContextEntry(entry_type='stakeholder', data=StakeholderData(id=1, name='Test User', role=<StakeholderRole.USER: 'user'>, region='North America', priority_level=2, impact_score=75.0), metadata=None), 'system_metrics': ContextEntry(entry_type='metric', data=RealTimeMetrics(metric_name='system_reliability', value=95.5, timestamp=datetime.datetime(2024, 10, 29, 19, 58, 35, 131589), source=<MetricSource.SENSOR: 'sensor'>), metadata=None), 'urgency_level': 'high'}\nReasoning: System update required for security\nExpected Impact: ",
+        "review_history": []
+      }
+    },
+    "cross_component_integration": {
+      "status": "success",
+      "assessment": "AccountabilityAssessment(transparency_score=0.0, traceability_score=0.0, responsibility_clarity=0.0, review_recommendations=[], compliance_notes=[])"
+    }
+  },
+  "errors": [],
+  "performance_metrics": {
+    "total_execution_time": 0.015587329864501953,
+    "context_store_size": 3,
+    "decisions_recorded": 1
+  },
+  "context_snapshot": {}
+}

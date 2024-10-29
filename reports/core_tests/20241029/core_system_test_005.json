@@ -1,0 +1,69 @@
+{
+  "test_id": "005",
+  "timestamp": "2024-10-29T20:27:48.254709",
+  "test_name": "core_system_test",
+  "status": "completed",
+  "components_tested": [
+    "ContextEngine",
+    "EthicalGovernor",
+    "AccountabilityPrism"
+  ],
+  "results": {
+    "context_management": {
+      "status": "success",
+      "context_analysis": {
+        "total_keys": 2,
+        "keys": [
+          "stakeholder_1",
+          "metric_system_reliability_2024-10-29T20:27:48.270376"
+        ],
+        "history_length": 2
+      }
+    },
+    "ethical_evaluation": {
+      "status": "success",
+      "decision": "EthicalDecision(decision_id='decision_1', category=<DecisionCategory.HIGH_IMPACT: 'high_impact'>, recommendation=<DecisionOutcome.REJECT: 'REJECT'>, confidence_score=0.06825, prism_scores={'human': 0.045, 'sentient': 0.21, 'eco': 0.0, 'innovation': 0.0}, context_snapshot={'stakeholder': StakeholderData(id=1, name='Test User', role=<StakeholderRole.USER: 'user'>, region='North America', priority_level=2, impact_score=75.0), 'system_metrics': RealTimeMetrics(metric_name='system_reliability', value=95.5, timestamp=datetime.datetime(2024, 10, 29, 20, 27, 48, 270376), source=<MetricSource.SENSOR: 'sensor'>), 'urgency_level': 'high'}, reasoning=['Enhance positive impact on human well-being', 'Address fairness concerns', 'Explore and develop: Potential for metrics-driven optimization'], risk_factors=[], mitigation_steps=[], stakeholder_impact={<StakeholderRole.USER: 'user'>: 0.75}, timestamp=1730233668.2703764)"
+    },
+    "accountability_tracking": {
+      "status": "success",
+      "review_data": {
+        "decision_id": 1,
+        "timestamp": "2024-10-29T20:27:48.270376",
+        "context": {
+          "stakeholder": {
+            "id": 1,
+            "name": "Test User",
+            "role": "user",
+            "region": "North America",
+            "priority_level": 2,
+            "impact_score": 75.0
+          },
+          "system_metrics": {
+            "metric_name": "system_reliability",
+            "value": 95.5,
+            "timestamp": "2024-10-29T20:27:48.270376",
+            "source": "sensor"
+          },
+          "urgency_level": "high"
+        },
+        "rationale": "System update required for security",
+        "responsible_entity": "supervisor",
+        "impact_level": "medium",
+        "review_status": "pending",
+        "explanation": "Decision Context: {'stakeholder': StakeholderData(id=1, name='Test User', role=<StakeholderRole.USER: 'user'>, region='North America', priority_level=2, impact_score=75.0), 'system_metrics': RealTimeMetrics(metric_name='system_reliability', value=95.5, timestamp=datetime.datetime(2024, 10, 29, 20, 27, 48, 270376), source=<MetricSource.SENSOR: 'sensor'>), 'urgency_level': 'high'}\nReasoning: System update required for security\nExpected Impact: ",
+        "review_history": []
+      }
+    },
+    "cross_component_integration": {
+      "status": "success",
+      "assessment": "AccountabilityAssessment(transparency_score=0.0, traceability_score=0.0, responsibility_clarity=0.0, review_recommendations=[], compliance_notes=[])"
+    }
+  },
+  "errors": [],
+  "performance_metrics": {
+    "total_execution_time": 0.015667438507080078,
+    "context_store_size": 3,
+    "decisions_recorded": 1
+  },
+  "context_snapshot": {}
+}
