@@ -1,0 +1,20 @@
+{
+  "test_id": "008",
+  "timestamp": "2024-10-29T20:48:27.854991",
+  "test_name": "location_context_test",
+  "status": "failed",
+  "components_tested": [
+    "ContextEngine",
+    "EthicalGovernor",
+    "LocationContext"
+  ],
+  "results": {},
+  "errors": [
+    "'str' object has no attribute 'get'"
+  ],
+  "performance_metrics": {},
+  "context_snapshot": {},
+  "location_specific_data": null,
+  "regional_comparisons": null,
+  "cultural_impact_analysis": null
+}

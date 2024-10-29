@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Green Data Center Migration",
+    "action": "migrate_to_renewable_energy",
+    "description": "Migrate data center operations to renewable energy sources",
+    "context": {
+      "current_energy_source": "fossil_fuel",
+      "target_energy_source": "solar_wind_hybrid",
+      "facility_size": "large",
+      "region": "SE-AB",
+      "transition_timeline": "12_months",
+      "carbon_footprint": "high"
+    },
+    "expected_outcome": "APPROVE",
+    "ethical_considerations": [
+      "Environmental impact",
+      "Service continuity",
+      "Resource efficiency",
+      "Local community impact"
+    ],
+    "risk_level": "moderate",
+    "compliance_requirements": [
+      "Environmental Protection Act",
+      "Carbon Emission Standards",
+      "Energy Efficiency Regulations"
+    ],
+    "stakeholders": [
+      {
+        "id": 2,
+        "name": "Nordic Operations",
+        "role": "manager",
+        "region": "SE-AB",
+        "priority_level": 2,
+        "impact_score": 85.0
+      }
+    ],
+    "regional_context": {
+      "environmental_priority": "very_high",
+      "innovation_tolerance": "progressive",
+      "regulatory_framework": "supportive",
+      "cultural_values": [
+        "sustainability",
+        "innovation"
+      ]
+    },
+    "probability_indicators": {
+      "success_probability": 0.8,
+      "environmental_benefit": 0.9,
+      "operational_risk": 0.4,
+      "cost_effectiveness": 0.7
+    }
+  }
+]

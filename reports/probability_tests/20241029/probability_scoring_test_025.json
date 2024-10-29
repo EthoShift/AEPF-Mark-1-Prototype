@@ -1,0 +1,61 @@
+{
+  "test_id": "025",
+  "timestamp": "2024-10-29T21:30:19.662837",
+  "test_name": "probability_scoring_test",
+  "status": "completed",
+  "components_tested": [
+    "EthicalGovernor",
+    "ProbabilityScorer"
+  ],
+  "results": {
+    "High Privacy Impact": {
+      "status": "success",
+      "action": "collect_user_data",
+      "ethical_decision": "DecisionOutcome.REJECT",
+      "probability_score": {
+        "band": "low",
+        "raw_score": 0.995,
+        "adjusted_score": 0.4186,
+        "confidence": 1.0
+      },
+      "expected_band": "low",
+      "matches_expected": true,
+      "status_marker": "[PASS]"
+    },
+    "Innovation Focus": {
+      "status": "success",
+      "action": "implement_ai_optimization",
+      "ethical_decision": "DecisionOutcome.REJECT",
+      "probability_score": {
+        "band": "high",
+        "raw_score": 1.0,
+        "adjusted_score": 0.8049999999999999,
+        "confidence": 1.0
+      },
+      "expected_band": "high",
+      "matches_expected": true,
+      "status_marker": "[PASS]"
+    },
+    "Environmental Impact": {
+      "status": "warning",
+      "action": "deploy_cloud_infrastructure",
+      "ethical_decision": "DecisionOutcome.REJECT",
+      "probability_score": {
+        "band": "low",
+        "raw_score": 1.0,
+        "adjusted_score": 0.5249999999999999,
+        "confidence": 1.0
+      },
+      "expected_band": "medium",
+      "matches_expected": false,
+      "status_marker": "[FAIL]"
+    }
+  },
+  "errors": [],
+  "performance_metrics": {
+    "scenarios_tested": 3,
+    "successful_predictions": 2,
+    "average_confidence": 1.0
+  },
+  "context_snapshot": {}
+}

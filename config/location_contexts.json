@@ -1,0 +1,169 @@
+{
+  "regions": [
+    {
+      "region_id": "US-CA",
+      "country": "US",
+      "state_province": "California",
+      "city": null,
+      "cultural_context": {
+        "primary_values": ["individualistic", "progressive"],
+        "innovation_tolerance": "progressive",
+        "privacy_emphasis": "high",
+        "decision_making_style": "data-driven",
+        "risk_tolerance": 0.8
+      },
+      "legal_context": {
+        "privacy_laws": ["CCPA", "CalOPPA"],
+        "data_protection_level": "high",
+        "environmental_regulations": ["California Environmental Quality Act"],
+        "ai_regulations": ["AI Transparency Requirements"],
+        "special_requirements": {
+          "data_residency": "optional",
+          "breach_notification": "mandatory"
+        }
+      },
+      "societal_norms": {
+        "privacy_importance": 0.9,
+        "innovation_focus": 0.9,
+        "environmental_priority": 0.8,
+        "community_focus": 0.7,
+        "individual_rights": 0.9,
+        "authority_respect": 0.6
+      },
+      "context_confidence": 0.9,
+      "last_updated": "2024-01-20"
+    },
+    {
+      "region_id": "DE-BY",
+      "country": "DE",
+      "state_province": "Bavaria",
+      "city": null,
+      "cultural_context": {
+        "primary_values": ["collectivist", "hierarchical"],
+        "innovation_tolerance": "supportive",
+        "privacy_emphasis": "very_high",
+        "decision_making_style": "consensus-based",
+        "risk_tolerance": 0.6
+      },
+      "legal_context": {
+        "privacy_laws": ["GDPR", "BDSG"],
+        "data_protection_level": "very_high",
+        "environmental_regulations": ["Federal Emission Control Act"],
+        "ai_regulations": ["EU AI Act"],
+        "special_requirements": {
+          "data_residency": "mandatory",
+          "breach_notification": "mandatory"
+        }
+      },
+      "societal_norms": {
+        "privacy_importance": 0.95,
+        "innovation_focus": 0.7,
+        "environmental_priority": 0.9,
+        "community_focus": 0.8,
+        "individual_rights": 0.8,
+        "authority_respect": 0.7
+      },
+      "context_confidence": 0.95,
+      "last_updated": "2024-01-20"
+    },
+    {
+      "region_id": "JP-13",
+      "country": "JP",
+      "state_province": "Tokyo",
+      "city": null,
+      "cultural_context": {
+        "primary_values": ["collectivist", "hierarchical"],
+        "innovation_tolerance": "progressive",
+        "privacy_emphasis": "high",
+        "decision_making_style": "consensus-based",
+        "risk_tolerance": 0.5
+      },
+      "legal_context": {
+        "privacy_laws": ["APPI", "PIPA"],
+        "data_protection_level": "high",
+        "environmental_regulations": ["Basic Environment Law"],
+        "ai_regulations": ["AI Social Principles"],
+        "special_requirements": {
+          "data_residency": "preferred",
+          "breach_notification": "mandatory"
+        }
+      },
+      "societal_norms": {
+        "privacy_importance": 0.85,
+        "innovation_focus": 0.9,
+        "environmental_priority": 0.8,
+        "community_focus": 0.9,
+        "individual_rights": 0.7,
+        "authority_respect": 0.9
+      },
+      "context_confidence": 0.9,
+      "last_updated": "2024-01-20"
+    },
+    {
+      "region_id": "SG-01",
+      "country": "SG",
+      "state_province": null,
+      "city": "Singapore",
+      "cultural_context": {
+        "primary_values": ["collectivist", "progressive"],
+        "innovation_tolerance": "progressive",
+        "privacy_emphasis": "high",
+        "decision_making_style": "structured",
+        "risk_tolerance": 0.7
+      },
+      "legal_context": {
+        "privacy_laws": ["PDPA"],
+        "data_protection_level": "high",
+        "environmental_regulations": ["Environmental Protection Act"],
+        "ai_regulations": ["AI Governance Framework"],
+        "special_requirements": {
+          "data_residency": "flexible",
+          "breach_notification": "mandatory"
+        }
+      },
+      "societal_norms": {
+        "privacy_importance": 0.8,
+        "innovation_focus": 0.95,
+        "environmental_priority": 0.85,
+        "community_focus": 0.85,
+        "individual_rights": 0.75,
+        "authority_respect": 0.85
+      },
+      "context_confidence": 0.9,
+      "last_updated": "2024-01-20"
+    },
+    {
+      "region_id": "IN-KA",
+      "country": "IN",
+      "state_province": "Karnataka",
+      "city": "Bangalore",
+      "cultural_context": {
+        "primary_values": ["collectivist", "progressive"],
+        "innovation_tolerance": "progressive",
+        "privacy_emphasis": "moderate",
+        "decision_making_style": "hierarchical",
+        "risk_tolerance": 0.7
+      },
+      "legal_context": {
+        "privacy_laws": ["PDPB", "IT Act"],
+        "data_protection_level": "moderate",
+        "environmental_regulations": ["Environmental Protection Act"],
+        "ai_regulations": ["AI Standardization"],
+        "special_requirements": {
+          "data_residency": "mandatory",
+          "breach_notification": "required"
+        }
+      },
+      "societal_norms": {
+        "privacy_importance": 0.7,
+        "innovation_focus": 0.9,
+        "environmental_priority": 0.7,
+        "community_focus": 0.9,
+        "individual_rights": 0.6,
+        "authority_respect": 0.8
+      },
+      "context_confidence": 0.85,
+      "last_updated": "2024-01-20"
+    }
+  ]
+} 

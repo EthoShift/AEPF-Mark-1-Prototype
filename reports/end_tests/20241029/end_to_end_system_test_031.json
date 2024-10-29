@@ -1,0 +1,34 @@
+{
+  "test_id": "031",
+  "timestamp": "2024-10-29T22:14:05.924307",
+  "test_name": "end_to_end_system_test",
+  "status": "completed",
+  "components_tested": [
+    "ContextEngine",
+    "EthicalGovernor",
+    "AccountabilityPrism"
+  ],
+  "results": {
+    "Privacy-Critical Decision": {
+      "status": "success",
+      "decision": "DecisionOutcome.REJECT",
+      "probability_band": "low",
+      "confidence_score": 1.0,
+      "prism_scores": {
+        "human": 0.045,
+        "sentient": 0.18,
+        "eco": 0.0,
+        "innovation": 0.0
+      },
+      "narrative": "This decision might have limited positive impact.\nPrimary impact is expected in the sentient domain with a low probability of success. Outcomes may face challenges.\n\nHigh confidence in this assessment based on comprehensive data",
+      "matches_expected": true
+    }
+  },
+  "errors": [],
+  "performance_metrics": {
+    "scenarios_tested": 1,
+    "successful_predictions": 1,
+    "average_confidence": 1.0
+  },
+  "context_snapshot": {}
+}

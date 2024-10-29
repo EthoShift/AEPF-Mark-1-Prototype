@@ -1,0 +1,53 @@
+[
+  {
+    "name": "AI Medical Diagnosis System",
+    "action": "deploy_ai_diagnosis",
+    "description": "Deploy AI system for critical medical diagnosis",
+    "context": {
+      "application_area": "critical_care",
+      "ai_model_accuracy": 0.95,
+      "human_oversight": "required",
+      "deployment_scope": "hospital_wide",
+      "testing_coverage": "extensive",
+      "fallback_systems": "available"
+    },
+    "expected_outcome": "REVIEW",
+    "ethical_considerations": [
+      "Patient safety",
+      "AI decision reliability",
+      "Medical staff autonomy",
+      "Error accountability"
+    ],
+    "risk_level": "critical",
+    "compliance_requirements": [
+      "Medical Device Regulations",
+      "AI Ethics Guidelines",
+      "Healthcare Standards"
+    ],
+    "stakeholders": [
+      {
+        "id": 3,
+        "name": "Medical AI Research",
+        "role": "developer",
+        "region": "US-CA",
+        "priority_level": 1,
+        "impact_score": 95.0
+      }
+    ],
+    "regional_context": {
+      "innovation_tolerance": "progressive",
+      "regulatory_framework": "evolving",
+      "healthcare_standards": "high",
+      "cultural_values": [
+        "innovation",
+        "safety"
+      ]
+    },
+    "probability_indicators": {
+      "success_rate": 0.85,
+      "risk_factor": 0.7,
+      "benefit_probability": 0.9,
+      "adoption_rate": 0.6
+    }
+  }
+]

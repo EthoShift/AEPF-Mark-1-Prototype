@@ -1,0 +1,354 @@
+{
+  "test_id": "012",
+  "timestamp": "2024-10-29T20:58:52.429751",
+  "test_name": "regional_ethical_analysis",
+  "status": "completed",
+  "components_tested": [
+    "ContextEngine",
+    "EthicalGovernor",
+    "LocationContext"
+  ],
+  "results": {},
+  "errors": [],
+  "performance_metrics": {
+    "total_execution_time": 0.015640735626220703,
+    "regions_tested": 5,
+    "average_confidence": 0.019899999999999998
+  },
+  "context_snapshot": {},
+  "location_specific_data": {
+    "US-CA": {
+      "scenario": "Deploy AI system for automated customer service decisions",
+      "ethical_considerations": [
+        "Privacy of customer data",
+        "Algorithmic bias",
+        "Job displacement"
+      ],
+      "decision": "DecisionOutcome.REJECT",
+      "confidence_score": 0.04575,
+      "prism_scores": {
+        "human": 0.045,
+        "sentient": 0.03,
+        "eco": 0.0,
+        "innovation": 0.15
+      },
+      "regional_influence": {
+        "cultural_factors": {
+          "privacy_emphasis": "high",
+          "innovation_tolerance": "progressive",
+          "decision_making_style": "data-driven"
+        },
+        "legal_impact": {
+          "privacy_laws": [
+            "CCPA",
+            "CalOPPA"
+          ],
+          "ai_regulations": [
+            "AI Transparency Requirements"
+          ]
+        },
+        "societal_influence": {
+          "privacy_importance": 0.9,
+          "innovation_focus": 0.9
+        },
+        "decision_alignment": {
+          "matches_cultural_values": true,
+          "complies_with_regulations": true
+        }
+      }
+    },
+    "DE-BY": {
+      "scenario": "Implement comprehensive user tracking for service improvement",
+      "ethical_considerations": [
+        "GDPR compliance",
+        "Data minimization",
+        "User consent"
+      ],
+      "decision": "DecisionOutcome.REJECT",
+      "confidence_score": 0.011749999999999998,
+      "prism_scores": {
+        "human": 0.03,
+        "sentient": 0.03,
+        "eco": -0.025,
+        "innovation": 0.0
+      },
+      "regional_influence": {
+        "cultural_factors": {
+          "privacy_emphasis": "very_high",
+          "innovation_tolerance": "supportive",
+          "decision_making_style": "consensus-based"
+        },
+        "legal_impact": {
+          "privacy_laws": [
+            "GDPR",
+            "BDSG"
+          ],
+          "ai_regulations": [
+            "EU AI Act"
+          ]
+        },
+        "societal_influence": {
+          "privacy_importance": 0.95,
+          "innovation_focus": 0.7
+        },
+        "decision_alignment": {
+          "matches_cultural_values": true,
+          "complies_with_regulations": true
+        }
+      }
+    },
+    "JP-13": {
+      "scenario": "Deploy AI assistant for personalized customer service",
+      "ethical_considerations": [
+        "Privacy of customer data",
+        "Algorithmic bias",
+        "Job displacement"
+      ],
+      "decision": "DecisionOutcome.REJECT",
+      "confidence_score": 0.02325,
+      "prism_scores": {
+        "human": 0.045,
+        "sentient": 0.03,
+        "eco": 0.0,
+        "innovation": 0.0
+      },
+      "regional_influence": {
+        "cultural_factors": {
+          "privacy_emphasis": "high",
+          "innovation_tolerance": "progressive",
+          "decision_making_style": "consensus-based"
+        },
+        "legal_impact": {
+          "privacy_laws": [
+            "APPI",
+            "PIPA"
+          ],
+          "ai_regulations": [
+            "AI Social Principles"
+          ]
+        },
+        "societal_influence": {
+          "privacy_importance": 0.85,
+          "innovation_focus": 0.9
+        },
+        "decision_alignment": {
+          "matches_cultural_values": true,
+          "complies_with_regulations": true
+        }
+      }
+    },
+    "SG-01": {
+      "scenario": "Implement facial recognition system for security and convenience",
+      "ethical_considerations": [
+        "Privacy of personal data",
+        "Algorithmic bias",
+        "Job displacement"
+      ],
+      "decision": "DecisionOutcome.REJECT",
+      "confidence_score": 0.026999999999999996,
+      "prism_scores": {
+        "human": 0.045,
+        "sentient": 0.03,
+        "eco": 0.0,
+        "innovation": 0.0
+      },
+      "regional_influence": {
+        "cultural_factors": {
+          "privacy_emphasis": "high",
+          "innovation_tolerance": "progressive",
+          "decision_making_style": "structured"
+        },
+        "legal_impact": {
+          "privacy_laws": [
+            "PDPA"
+          ],
+          "ai_regulations": [
+            "AI Governance Framework"
+          ]
+        },
+        "societal_influence": {
+          "privacy_importance": 0.8,
+          "innovation_focus": 0.95
+        },
+        "decision_alignment": {
+          "matches_cultural_values": true,
+          "complies_with_regulations": true
+        }
+      }
+    },
+    "IN-KA": {
+      "scenario": "Outsource data processing to a third-party service provider",
+      "ethical_considerations": [
+        "Privacy of data",
+        "Data security",
+        "Job displacement"
+      ],
+      "decision": "DecisionOutcome.REJECT",
+      "confidence_score": -0.008250000000000004,
+      "prism_scores": {
+        "human": 0.03,
+        "sentient": 0.03,
+        "eco": -0.10500000000000001,
+        "innovation": 0.0
+      },
+      "regional_influence": {
+        "cultural_factors": {
+          "privacy_emphasis": "moderate",
+          "innovation_tolerance": "progressive",
+          "decision_making_style": "hierarchical"
+        },
+        "legal_impact": {
+          "privacy_laws": [
+            "PDPB",
+            "IT Act"
+          ],
+          "ai_regulations": [
+            "AI Standardization"
+          ]
+        },
+        "societal_influence": {
+          "privacy_importance": 0.7,
+          "innovation_focus": 0.9
+        },
+        "decision_alignment": {
+          "matches_cultural_values": true,
+          "complies_with_regulations": true
+        }
+      }
+    }
+  },
+  "regional_comparisons": {
+    "privacy_emphasis": {},
+    "innovation_tolerance": {},
+    "environmental_priority": {},
+    "cultural_alignment": {},
+    "decision_confidence": {
+      "US-CA": 0.04575,
+      "DE-BY": 0.011749999999999998,
+      "JP-13": 0.02325,
+      "SG-01": 0.026999999999999996,
+      "IN-KA": -0.008250000000000004
+    },
+    "human": {
+      "US-CA": 0.045,
+      "DE-BY": 0.03,
+      "JP-13": 0.045,
+      "SG-01": 0.045,
+      "IN-KA": 0.03
+    },
+    "sentient": {
+      "US-CA": 0.03,
+      "DE-BY": 0.03,
+      "JP-13": 0.03,
+      "SG-01": 0.03,
+      "IN-KA": 0.03
+    },
+    "eco": {
+      "US-CA": 0.0,
+      "DE-BY": -0.025,
+      "JP-13": 0.0,
+      "SG-01": 0.0,
+      "IN-KA": -0.10500000000000001
+    },
+    "innovation": {
+      "US-CA": 0.15,
+      "DE-BY": 0.0,
+      "JP-13": 0.0,
+      "SG-01": 0.0,
+      "IN-KA": 0.0
+    }
+  },
+  "cultural_impact_analysis": {
+    "cultural_patterns": {
+      "individualistic": [
+        {
+          "region": "US-CA",
+          "decision": "DecisionOutcome.REJECT"
+        }
+      ],
+      "progressive": [
+        {
+          "region": "US-CA",
+          "decision": "DecisionOutcome.REJECT"
+        },
+        {
+          "region": "SG-01",
+          "decision": "DecisionOutcome.REJECT"
+        },
+        {
+          "region": "IN-KA",
+          "decision": "DecisionOutcome.REJECT"
+        }
+      ],
+      "collectivist": [
+        {
+          "region": "DE-BY",
+          "decision": "DecisionOutcome.REJECT"
+        },
+        {
+          "region": "JP-13",
+          "decision": "DecisionOutcome.REJECT"
+        },
+        {
+          "region": "SG-01",
+          "decision": "DecisionOutcome.REJECT"
+        },
+        {
+          "region": "IN-KA",
+          "decision": "DecisionOutcome.REJECT"
+        }
+      ],
+      "hierarchical": [
+        {
+          "region": "DE-BY",
+          "decision": "DecisionOutcome.REJECT"
+        },
+        {
+          "region": "JP-13",
+          "decision": "DecisionOutcome.REJECT"
+        }
+      ]
+    },
+    "decision_variations": {
+      "by_region": {
+        "US-CA": "DecisionOutcome.REJECT",
+        "DE-BY": "DecisionOutcome.REJECT",
+        "JP-13": "DecisionOutcome.REJECT",
+        "SG-01": "DecisionOutcome.REJECT",
+        "IN-KA": "DecisionOutcome.REJECT"
+      }
+    },
+    "compliance_factors": {
+      "US-CA": {
+        "privacy_level": "high",
+        "ai_regulations": [
+          "AI Transparency Requirements"
+        ]
+      },
+      "DE-BY": {
+        "privacy_level": "very_high",
+        "ai_regulations": [
+          "EU AI Act"
+        ]
+      },
+      "JP-13": {
+        "privacy_level": "high",
+        "ai_regulations": [
+          "AI Social Principles"
+        ]
+      },
+      "SG-01": {
+        "privacy_level": "high",
+        "ai_regulations": [
+          "AI Governance Framework"
+        ]
+      },
+      "IN-KA": {
+        "privacy_level": "moderate",
+        "ai_regulations": [
+          "AI Standardization"
+        ]
+      }
+    }
+  }
+}

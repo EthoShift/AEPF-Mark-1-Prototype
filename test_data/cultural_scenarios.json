@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Traditional vs Modern Values",
+    "action": "implement_facial_recognition",
+    "description": "Deploy facial recognition in culturally conservative region",
+    "context": {
+      "region": "JP-13",
+      "cultural_context": {
+        "privacy_emphasis": "very_high",
+        "social_harmony": "critical",
+        "innovation_tolerance": "progressive",
+        "primary_values": [
+          "collective_harmony",
+          "privacy"
+        ]
+      },
+      "stakeholder": {
+        "id": 4,
+        "name": "Tokyo Operations",
+        "role": "manager",
+        "region": "JP-13",
+        "priority_level": 1,
+        "impact_score": 95.0
+      },
+      "compliance_requirements": [
+        "APPI",
+        "Cultural Heritage Protection"
+      ],
+      "risk_level": "high"
+    },
+    "expected_outcome": "REVIEW",
+    "ethical_considerations": [
+      "Cultural privacy expectations",
+      "Social harmony impact",
+      "Traditional vs modern values",
+      "Community consent"
+    ],
+    "risk_level": "high",
+    "compliance_requirements": [
+      "APPI",
+      "Cultural Heritage Protection",
+      "Local Privacy Standards"
+    ],
+    "stakeholders": [
+      {
+        "id": 4,
+        "name": "Tokyo Operations",
+        "role": "manager",
+        "region": "JP-13",
+        "priority_level": 1,
+        "impact_score": 95.0
+      }
+    ],
+    "regional_context": {
+      "cultural_emphasis": "very_high",
+      "innovation_tolerance": "progressive",
+      "regulatory_framework": "strict",
+      "cultural_values": [
+        "harmony",
+        "privacy",
+        "tradition"
+      ]
+    },
+    "probability_indicators": {
+      "cultural_acceptance": 0.4,
+      "social_harmony_risk": 0.7,
+      "benefit_probability": 0.6,
+      "community_support": 0.3
+    }
+  }
+]

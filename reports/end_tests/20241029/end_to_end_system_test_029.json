@@ -1,0 +1,17 @@
+{
+  "test_id": "029",
+  "timestamp": "2024-10-29T22:06:37.828617",
+  "test_name": "end_to_end_system_test",
+  "status": "failed",
+  "components_tested": [
+    "ContextEngine",
+    "EthicalGovernor",
+    "AccountabilityPrism"
+  ],
+  "results": {},
+  "errors": [
+    "Data must be dict for assessment entry type"
+  ],
+  "performance_metrics": {},
+  "context_snapshot": {}
+}

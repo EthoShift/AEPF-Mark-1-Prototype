@@ -1,0 +1,53 @@
+[
+  {
+    "name": "EU Healthcare Data Processing",
+    "action": "process_patient_data",
+    "description": "Process sensitive healthcare data for research purposes",
+    "context": {
+      "data_type": "medical_records",
+      "privacy_level": "very_high",
+      "region": "DE-BY",
+      "purpose": "medical_research",
+      "data_volume": "large",
+      "processing_location": "EU"
+    },
+    "expected_outcome": "REJECT",
+    "ethical_considerations": [
+      "Patient privacy rights",
+      "Medical research benefits",
+      "Data minimization requirements",
+      "Cross-border data transfer"
+    ],
+    "risk_level": "high",
+    "compliance_requirements": [
+      "GDPR",
+      "HIPAA",
+      "Medical Data Protection"
+    ],
+    "stakeholders": [
+      {
+        "id": 1,
+        "name": "European Medical Center",
+        "role": "manager",
+        "region": "DE-BY",
+        "priority_level": 1,
+        "impact_score": 90.0
+      }
+    ],
+    "regional_context": {
+      "privacy_emphasis": "very_high",
+      "innovation_tolerance": "conservative",
+      "regulatory_framework": "strict",
+      "cultural_values": [
+        "privacy",
+        "security"
+      ]
+    },
+    "probability_indicators": {
+      "compliance_risk": 0.8,
+      "privacy_breach_risk": 0.7,
+      "benefit_probability": 0.6,
+      "success_rate": 0.5
+    }
+  }
+]

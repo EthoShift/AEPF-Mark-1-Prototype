@@ -1,0 +1,20 @@
+{
+  "test_id": "011",
+  "timestamp": "2024-10-29T20:56:52.577914",
+  "test_name": "regional_ethical_analysis",
+  "status": "failed",
+  "components_tested": [
+    "ContextEngine",
+    "EthicalGovernor",
+    "LocationContext"
+  ],
+  "results": {},
+  "errors": [
+    "'dict' object has no attribute 'lower'"
+  ],
+  "performance_metrics": {},
+  "context_snapshot": {},
+  "location_specific_data": null,
+  "regional_comparisons": null,
+  "cultural_impact_analysis": null
+}

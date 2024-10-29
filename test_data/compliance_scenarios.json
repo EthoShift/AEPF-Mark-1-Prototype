@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Cross-Border Data Transfer",
+    "action": "transfer_sensitive_data",
+    "description": "Transfer sensitive data between EU and non-EU regions",
+    "context": {
+      "data_type": "personal_health",
+      "source_region": "DE-BY",
+      "destination_region": "US-CA",
+      "transfer_volume": "large",
+      "data_sensitivity": "very_high",
+      "stakeholder": {
+        "id": 5,
+        "name": "International Health Research",
+        "role": "manager",
+        "region": "DE-BY",
+        "priority_level": 1,
+        "impact_score": 98.0
+      },
+      "compliance_requirements": [
+        "GDPR",
+        "HIPAA",
+        "EU-US Data Privacy Framework"
+      ],
+      "risk_level": "critical"
+    },
+    "expected_outcome": "ESCALATE",
+    "ethical_considerations": [
+      "Cross-border data protection",
+      "International compliance",
+      "Data sovereignty",
+      "Research benefits"
+    ],
+    "risk_level": "critical",
+    "compliance_requirements": [
+      "GDPR",
+      "HIPAA",
+      "EU-US Data Privacy Framework",
+      "German Federal Data Protection Act"
+    ],
+    "stakeholders": [
+      {
+        "id": 5,
+        "name": "International Health Research",
+        "role": "manager",
+        "region": "DE-BY",
+        "priority_level": 1,
+        "impact_score": 98.0
+      }
+    ],
+    "regional_context": {
+      "privacy_emphasis": "very_high",
+      "compliance_framework": "strict",
+      "regulatory_requirements": "complex",
+      "cultural_values": [
+        "privacy",
+        "data_protection"
+      ]
+    },
+    "probability_indicators": {
+      "compliance_risk": 0.9,
+      "data_breach_risk": 0.7,
+      "benefit_probability": 0.8,
+      "successful_transfer": 0.5
+    }
+  }
+]

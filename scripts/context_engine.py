@@ -1,6 +1,8 @@
 from typing import Dict, List, Optional, Any, Union
 import logging
 from scripts.context_models import ContextEntry, StakeholderData, RealTimeMetrics
+from scripts.location_context import LocationContextManager, RegionalContext
+from datetime import datetime
 
 class ContextEngine:
     """
@@ -11,6 +13,8 @@ class ContextEngine:
         self.logger = logging.getLogger(__name__)
         self.context_store: Dict[str, ContextEntry] = {}
         self.context_history: List[Dict[str, Any]] = []
+        self.location_manager = LocationContextManager()
+        self.current_region: Optional[str] = None
         
     def add_context_entry(self, entry: ContextEntry) -> None:
         """
@@ -92,3 +96,45 @@ class ContextEngine:
             'history_length': len(self.context_history)
         }
         return analysis
+    
+    def set_location_context(self, region_id: str) -> bool:
+        """Set the current location context"""
+        context = self.location_manager.get_context(region_id)
+        if context:
+            self.current_region = region_id
+            self.context_history.append({
+                'action': 'set_location',
+                'region_id': region_id,
+                'timestamp': datetime.now().isoformat()
+            })
+            return True
+        return False
+    
+    def get_location_context(self) -> Optional[RegionalContext]:
+        """Get current location context"""
+        if self.current_region:
+            return self.location_manager.get_context(self.current_region)
+        return None
+    
+    def adjust_for_location(self, weights: Dict[str, float]) -> Dict[str, float]:
+        """Adjust weights based on location context"""
+        context = self.get_location_context()
+        if context:
+            return self.location_manager.adjust_weights(weights, context)
+        return weights
+    
+    def get_decision_context(self, action: str) -> Dict:
+        """Gather comprehensive context for decision-making"""
+        context = {
+            'stakeholders': self._get_relevant_stakeholders(),
+            'metrics': self._get_relevant_metrics(),
+            'location': self.get_location_context(),
+            'compliance': self._get_compliance_requirements(),
+            'historical_data': self._get_historical_context(action)
+        }
+        
+        # Add probability-relevant context
+        context['risk_factors'] = self._analyze_risk_factors(action)
+        context['previous_decisions'] = self._get_related_decisions(action)
+        
+        return context
