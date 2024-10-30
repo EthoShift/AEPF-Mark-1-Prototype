@@ -1,0 +1,18 @@
+{
+  "test_id": "044",
+  "timestamp": "2024-10-30T09:11:07.149288",
+  "test_name": "end_to_end_system_test",
+  "status": "failed",
+  "components_tested": [
+    "ContextEngine",
+    "EthicalGovernor",
+    "ProbabilityScorer",
+    "OutcomeNarrative"
+  ],
+  "results": {},
+  "errors": [
+    "max() iterable argument is empty"
+  ],
+  "performance_metrics": {},
+  "context_snapshot": {}
+}

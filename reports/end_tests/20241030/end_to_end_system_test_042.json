@@ -1,0 +1,18 @@
+{
+  "test_id": "042",
+  "timestamp": "2024-10-30T08:55:03.963644",
+  "test_name": "end_to_end_system_test",
+  "status": "failed",
+  "components_tested": [
+    "ContextEngine",
+    "EthicalGovernor",
+    "ProbabilityScorer",
+    "OutcomeNarrative"
+  ],
+  "results": {},
+  "errors": [
+    "'EthicalGovernor' object has no attribute '_load_prism_weights'"
+  ],
+  "performance_metrics": {},
+  "context_snapshot": {}
+}

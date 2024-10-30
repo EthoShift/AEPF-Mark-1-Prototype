@@ -97,12 +97,14 @@ class TestDataGenerator:
                 action="migrate_to_renewable_energy",
                 description="Migrate data center operations to renewable energy sources",
                 context={
+                    "context_type": "environmental",
                     "current_energy_source": "fossil_fuel",
                     "target_energy_source": "solar_wind_hybrid",
                     "facility_size": "large",
                     "region": "SE-AB",
                     "transition_timeline": "12_months",
-                    "carbon_footprint": "high"
+                    "carbon_footprint": "high",
+                    "environmental_priority": "high"
                 },
                 expected_outcome="APPROVE",
                 ethical_considerations=[

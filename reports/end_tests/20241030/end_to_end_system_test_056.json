@@ -1,0 +1,62 @@
+{
+  "test_id": "056",
+  "timestamp": "2024-10-30T12:19:15.666752",
+  "test_name": "end_to_end_system_test",
+  "status": "completed",
+  "components_tested": [
+    "ContextEngine",
+    "EthicalGovernor",
+    "ProbabilityScorer",
+    "OutcomeNarrative"
+  ],
+  "results": {
+    "compliance_Cross-Border Data Transfer": {
+      "status": "success",
+      "decision": "DecisionOutcome.ESCALATE",
+      "probability_band": "low",
+      "confidence_score": 0.8,
+      "narrative": "This decision might have limited positive impact.\nPrimary impact is expected in the regulatory compliance and governance domain with a low probability of success. Current analysis indicates potential implementation challenges.\n\nHigh confidence in this assessment based on comprehensive data",
+      "matches_expected": true
+    },
+    "cultural_Traditional vs Modern Values": {
+      "status": "success",
+      "decision": "DecisionOutcome.REVIEW",
+      "probability_band": "medium",
+      "confidence_score": 0.75,
+      "narrative": "This decision may produce favorable outcomes.\nPrimary impact is expected in the cultural values and societal impact domain with a medium probability of success. Balanced assessment suggests moderate positive potential.\n\nModerate confidence in this assessment with some uncertainty",
+      "matches_expected": true
+    },
+    "environmental_Green Data Center Migration": {
+      "status": "success",
+      "decision": "DecisionOutcome.APPROVE",
+      "probability_band": "medium",
+      "confidence_score": 0.75,
+      "narrative": "This decision may produce favorable outcomes.\nPrimary impact is expected in the environmental sustainability and resource efficiency domain with a medium probability of success. Balanced assessment suggests moderate positive potential.\n\nModerate confidence in this assessment with some uncertainty",
+      "matches_expected": true
+    },
+    "high_AI Medical Diagnosis System": {
+      "status": "success",
+      "decision": "DecisionOutcome.REVIEW",
+      "probability_band": "medium",
+      "confidence_score": 0.75,
+      "narrative": "This decision may produce favorable outcomes.\nPrimary impact is expected in the human welfare and privacy protection domain with a medium probability of success. Balanced assessment suggests moderate positive potential.\n\nModerate confidence in this assessment with some uncertainty",
+      "matches_expected": true
+    },
+    "privacy_EU Healthcare Data Processing": {
+      "status": "success",
+      "decision": "DecisionOutcome.REJECT",
+      "probability_band": "low",
+      "confidence_score": 0.8,
+      "narrative": "This decision might have limited positive impact.\nPrimary impact is expected in the data privacy and protection domain with a low probability of success. Current analysis indicates potential implementation challenges.\n\nHigh confidence in this assessment based on comprehensive data",
+      "matches_expected": true
+    }
+  },
+  "errors": [],
+  "performance_metrics": {
+    "scenarios_tested": 5,
+    "successful_predictions": 5,
+    "average_confidence": 0.77,
+    "execution_time": 0.1974196434020996
+  },
+  "context_snapshot": {}
+}

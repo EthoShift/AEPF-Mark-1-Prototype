@@ -94,7 +94,8 @@ class OutcomeNarrative:
         main_outcome = self._generate_main_outcome(
             probability_score,
             probability_band,
-            prism_scores
+            prism_scores,
+            regional_context
         )
         
         # Identify secondary effects from other significant prism scores
@@ -124,23 +125,67 @@ class OutcomeNarrative:
         else:
             return self.impact_phrases['negative'][0]
     
+    def _determine_primary_domain(self, prism_scores: Dict[str, float], context: Dict) -> str:
+        """Determine the primary domain based on context and scores"""
+        # First check context type explicitly
+        context_type = str(context.get('context_type', '')).lower()
+        
+        # Direct mapping from context type to domain
+        domain_mapping = {
+            'environmental': 'environmental sustainability and resource efficiency',
+            'privacy': 'data privacy and protection',
+            'innovation': 'technological advancement and innovation',
+            'cultural': 'cultural values and societal impact',
+            'compliance': 'regulatory compliance and governance'
+        }
+        
+        # Return mapped domain if available
+        if context_type in domain_mapping:
+            return domain_mapping[context_type]
+        
+        # Fallback to prism score analysis
+        if not prism_scores:
+            return "general impact"
+        
+        # Find dominant prism
+        max_score = max(abs(score) for score in prism_scores.values())
+        dominant_prisms = [
+            name for name, score in prism_scores.items()
+            if abs(score) == max_score
+        ]
+        
+        # Map prism to domain
+        prism_domains = {
+            'eco': 'environmental sustainability and resource efficiency',
+            'innovation': 'technological advancement and optimization',
+            'human': 'human welfare and privacy protection',
+            'sentient': 'ethical consideration and fairness'
+        }
+        
+        if dominant_prisms:
+            return prism_domains.get(dominant_prisms[0], 'general impact')
+        
+        return 'general impact'
+    
     def _generate_main_outcome(self,
                              probability_score: float,
                              probability_band: ProbabilityBand,
-                             prism_scores: Dict[str, float]) -> str:
+                             prism_scores: Dict[str, float],
+                             context: Dict) -> str:
         """Generate main outcome description"""
-        # Find most influential prism
-        top_prism = max(prism_scores.items(), key=lambda x: abs(x[1]))
+        # Determine primary domain
+        primary_domain = self._determine_primary_domain(prism_scores, context)
         
-        outcome = f"Primary impact is expected in the {top_prism[0]} domain "
+        outcome = f"Primary impact is expected in the {primary_domain} domain "
         outcome += f"with a {probability_band.value} probability of success. "
         
+        # Add more specific outcome predictions
         if probability_score >= 0.7:
-            outcome += "Strong positive outcomes are anticipated."
+            outcome += "Analysis indicates strong potential for positive outcomes."
         elif probability_score >= 0.4:
-            outcome += "Moderate positive outcomes are possible."
+            outcome += "Balanced assessment suggests moderate positive potential."
         else:
-            outcome += "Outcomes may face challenges."
+            outcome += "Current analysis indicates potential implementation challenges."
             
         return outcome
     

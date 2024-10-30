@@ -1,0 +1,62 @@
+{
+  "test_id": "033",
+  "timestamp": "2024-10-30T07:39:45.071758",
+  "test_name": "end_to_end_system_test",
+  "status": "completed",
+  "components_tested": [
+    "ContextEngine",
+    "EthicalGovernor",
+    "ProbabilityScorer",
+    "OutcomeNarrative"
+  ],
+  "results": {
+    "compliance_Cross-Border Data Transfer": {
+      "status": "warning",
+      "decision": "DecisionOutcome.REJECT",
+      "probability_band": "low",
+      "confidence_score": 1.0,
+      "narrative": "This decision might have limited positive impact.\nPrimary impact is expected in the human welfare domain with a low probability of success. Outcomes may face challenges.\n\nHigh confidence in this assessment based on comprehensive data",
+      "matches_expected": false
+    },
+    "cultural_Traditional vs Modern Values": {
+      "status": "warning",
+      "decision": "DecisionOutcome.REJECT",
+      "probability_band": "low",
+      "confidence_score": 1.0,
+      "narrative": "This decision might have limited positive impact.\nPrimary impact is expected in the human welfare domain with a low probability of success. Outcomes may face challenges.\n\nHigh confidence in this assessment based on comprehensive data",
+      "matches_expected": false
+    },
+    "environmental_Green Data Center Migration": {
+      "status": "warning",
+      "decision": "DecisionOutcome.REJECT",
+      "probability_band": "low",
+      "confidence_score": 1.0,
+      "narrative": "This decision might have limited positive impact.\nPrimary impact is expected in the human welfare domain with a low probability of success. Outcomes may face challenges.\n\nHigh confidence in this assessment based on comprehensive data",
+      "matches_expected": false
+    },
+    "high_AI Medical Diagnosis System": {
+      "status": "warning",
+      "decision": "DecisionOutcome.REJECT",
+      "probability_band": "low",
+      "confidence_score": 1.0,
+      "narrative": "This decision might have limited positive impact.\nPrimary impact is expected in the human welfare domain with a low probability of success. Outcomes may face challenges.\n\nHigh confidence in this assessment based on comprehensive data",
+      "matches_expected": false
+    },
+    "privacy_EU Healthcare Data Processing": {
+      "status": "success",
+      "decision": "DecisionOutcome.REJECT",
+      "probability_band": "low",
+      "confidence_score": 1.0,
+      "narrative": "This decision might have limited positive impact.\nPrimary impact is expected in the human welfare domain with a low probability of success. Outcomes may face challenges.\n\nHigh confidence in this assessment based on comprehensive data",
+      "matches_expected": true
+    }
+  },
+  "errors": [],
+  "performance_metrics": {
+    "scenarios_tested": 5,
+    "successful_predictions": 1,
+    "average_confidence": 1.0,
+    "execution_time": 0.01562190055847168
+  },
+  "context_snapshot": {}
+}
