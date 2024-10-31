@@ -1,0 +1,62 @@
+{
+  "test_id": "070",
+  "timestamp": "2024-10-30T15:58:48.682724",
+  "test_name": "end_to_end_system_test",
+  "status": "completed",
+  "components_tested": [
+    "ContextEngine",
+    "EthicalGovernor",
+    "ProbabilityScorer",
+    "OutcomeNarrative"
+  ],
+  "results": {
+    "compliance_Cross-Border Data Transfer": {
+      "status": "warning",
+      "decision": "DecisionOutcome.REJECT",
+      "probability_band": "low",
+      "confidence_score": 0.0,
+      "narrative": "This decision might have limited positive impact.\nPrimary impact is expected in the regulatory compliance and governance domain with a low probability of success. Current analysis indicates potential implementation challenges.\n\nLimited confidence due to uncertainty in available data",
+      "matches_expected": false
+    },
+    "cultural_Traditional vs Modern Values": {
+      "status": "warning",
+      "decision": "DecisionOutcome.REJECT",
+      "probability_band": "low",
+      "confidence_score": 0.0,
+      "narrative": "This decision might have limited positive impact.\nPrimary impact is expected in the cultural values and societal impact domain with a low probability of success. Current analysis indicates potential implementation challenges.\n\nLimited confidence due to uncertainty in available data",
+      "matches_expected": false
+    },
+    "environmental_Green Data Center Migration": {
+      "status": "warning",
+      "decision": "DecisionOutcome.REJECT",
+      "probability_band": "low",
+      "confidence_score": 0.0,
+      "narrative": "This decision might have limited positive impact.\nPrimary impact is expected in the environmental sustainability and resource efficiency domain with a low probability of success. Current analysis indicates potential implementation challenges.\n\nLimited confidence due to uncertainty in available data",
+      "matches_expected": false
+    },
+    "high_AI Medical Diagnosis System": {
+      "status": "warning",
+      "decision": "DecisionOutcome.REJECT",
+      "probability_band": "low",
+      "confidence_score": 0.0,
+      "narrative": "This decision might have limited positive impact.\nPrimary impact is expected in the general impact domain with a low probability of success. Current analysis indicates potential implementation challenges.\n\nLimited confidence due to uncertainty in available data",
+      "matches_expected": false
+    },
+    "privacy_EU Healthcare Data Processing": {
+      "status": "success",
+      "decision": "DecisionOutcome.REJECT",
+      "probability_band": "low",
+      "confidence_score": 0.0,
+      "narrative": "This decision might have limited positive impact.\nPrimary impact is expected in the data privacy and protection domain with a low probability of success. Current analysis indicates potential implementation challenges.\n\nLimited confidence due to uncertainty in available data",
+      "matches_expected": true
+    }
+  },
+  "errors": [],
+  "performance_metrics": {
+    "scenarios_tested": 5,
+    "successful_predictions": 1,
+    "average_confidence": 0.0,
+    "execution_time": 0.03661656379699707
+  },
+  "context_snapshot": {}
+}

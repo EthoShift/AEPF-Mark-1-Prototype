@@ -1,0 +1,48 @@
+Decision Logic Test Results
+================================================================================
+
+
+Scenario: DL001
+----------------------------------------
+Initial Outcome: NONE
+Final Outcome: REJECT
+Probability Band: low
+Confidence Score: 0.000
+Secondary Review: Yes
+Test Passed: No
+
+Narrative:
+- Error during evaluation: maximum recursion depth exceeded
+- Defaulting to reject decision for safety
+
+================================================================================
+
+Scenario: DL002
+----------------------------------------
+Initial Outcome: NONE
+Final Outcome: REJECT
+Probability Band: low
+Confidence Score: 0.000
+Secondary Review: Yes
+Test Passed: No
+
+Narrative:
+- Error during evaluation: maximum recursion depth exceeded
+- Defaulting to reject decision for safety
+
+================================================================================
+
+Scenario: DL003
+----------------------------------------
+Initial Outcome: NONE
+Final Outcome: REJECT
+Probability Band: low
+Confidence Score: 0.000
+Secondary Review: Yes
+Test Passed: No
+
+Narrative:
+- Error during evaluation: maximum recursion depth exceeded
+- Defaulting to reject decision for safety
+
+================================================================================

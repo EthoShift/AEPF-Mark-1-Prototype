@@ -1,0 +1,18 @@
+{
+  "test_id": "058",
+  "timestamp": "2024-10-30T13:56:40.927231",
+  "test_name": "end_to_end_system_test",
+  "status": "failed",
+  "components_tested": [
+    "ContextEngine",
+    "EthicalGovernor",
+    "ProbabilityScorer",
+    "OutcomeNarrative"
+  ],
+  "results": {},
+  "errors": [
+    "'NoneType' object has no attribute 'adjusted_score'"
+  ],
+  "performance_metrics": {},
+  "context_snapshot": {}
+}

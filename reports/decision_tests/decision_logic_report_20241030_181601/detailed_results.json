@@ -1,0 +1,65 @@
+{
+  "statistics": {
+    "total_tests": 3,
+    "passed_tests": 0,
+    "secondary_reviews": 0,
+    "average_confidence": 1.0,
+    "outcome_distribution": {
+      "APPROVE": 1,
+      "REVIEW": 1,
+      "REJECT": 1,
+      "ESCALATE": 0,
+      "DEFER": 0
+    }
+  },
+  "results": [
+    {
+      "scenario_id": "DL001",
+      "initial_outcome": "REVIEW",
+      "final_outcome": "REVIEW",
+      "probability_band": "low",
+      "confidence_score": 1.0,
+      "secondary_review": false,
+      "secondary_effects": {
+        "human": 2.4,
+        "sentient": 1.6,
+        "eco": 0.0,
+        "innovation": 0.0
+      },
+      "passed": false,
+      "timestamp": "2024-10-30T18:16:01.018937"
+    },
+    {
+      "scenario_id": "DL002",
+      "initial_outcome": "APPROVE",
+      "final_outcome": "APPROVE",
+      "probability_band": "low",
+      "confidence_score": 1.0,
+      "secondary_review": false,
+      "secondary_effects": {
+        "human": -0.2105263157894737,
+        "sentient": 0.0,
+        "eco": 2.526315789473684,
+        "innovation": 1.263157894736842
+      },
+      "passed": false,
+      "timestamp": "2024-10-30T18:16:01.018937"
+    },
+    {
+      "scenario_id": "DL003",
+      "initial_outcome": "REJECT",
+      "final_outcome": "REJECT",
+      "probability_band": "low",
+      "confidence_score": 1.0,
+      "secondary_review": false,
+      "secondary_effects": {
+        "human": 0.0,
+        "sentient": 0.0,
+        "eco": 0.0,
+        "innovation": 0.0
+      },
+      "passed": false,
+      "timestamp": "2024-10-30T18:16:01.018937"
+    }
+  ]
+}

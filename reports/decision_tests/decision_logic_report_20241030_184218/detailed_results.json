@@ -1,0 +1,51 @@
+{
+  "timestamp": "2024-10-30T18:42:18.919256",
+  "total_scenarios": 3,
+  "results": [
+    {
+      "scenario_id": "DL001",
+      "timestamp": "2024-10-30T18:42:18.903664",
+      "initial_outcome": "NONE",
+      "final_outcome": "REJECT",
+      "probability_band": "low",
+      "confidence_score": 0.0,
+      "secondary_review": true,
+      "passed": false,
+      "secondary_effects": {},
+      "narrative": [
+        "Error during evaluation: maximum recursion depth exceeded",
+        "Defaulting to reject decision for safety"
+      ]
+    },
+    {
+      "scenario_id": "DL002",
+      "timestamp": "2024-10-30T18:42:18.903664",
+      "initial_outcome": "NONE",
+      "final_outcome": "REJECT",
+      "probability_band": "low",
+      "confidence_score": 0.0,
+      "secondary_review": true,
+      "passed": false,
+      "secondary_effects": {},
+      "narrative": [
+        "Error during evaluation: maximum recursion depth exceeded",
+        "Defaulting to reject decision for safety"
+      ]
+    },
+    {
+      "scenario_id": "DL003",
+      "timestamp": "2024-10-30T18:42:18.919256",
+      "initial_outcome": "NONE",
+      "final_outcome": "REJECT",
+      "probability_band": "low",
+      "confidence_score": 0.0,
+      "secondary_review": true,
+      "passed": false,
+      "secondary_effects": {},
+      "narrative": [
+        "Error during evaluation: maximum recursion depth exceeded",
+        "Defaulting to reject decision for safety"
+      ]
+    }
+  ]
+}
