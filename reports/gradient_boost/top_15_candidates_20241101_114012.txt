@@ -1,0 +1,53 @@
+TOP 15 CANDIDATES REPORT
+=======================
+
+Generated: November 01, 2024
+
+MODEL SUMMARY
+-------------
+Model Type: Gradient Boost Classifier
+Dataset Size: 311 employees
+Model Accuracy: 55.0%
+
+EXECUTIVE SUMMARY
+----------------
+This report presents the top 15 candidates recommended for interview consideration, ranked by their suitability scores based on performance, engagement, and reliability metrics.
+
+RECOMMENDED CANDIDATES
+---------------------
+Rank | ID      | Department      | Position          | Perf Score | Engagement | Satisfaction | Key Strength
+----------------------------------------------------------------------------------------------------
+ 1   | 10071   | Production        | Production Tech | Fully Meets |       5.0 |         5.0 | High Engagement
+ 2   | 10229   | IT/IS          | Data Analyst    | Fully Meets |       4.2 |         3.0 | Project Leadership
+ 3   | 10169   | Production        | Production Tech | Fully Meets |       3.5 |         3.0 | Balanced Performance
+ 4   | 10179   | IT/IS          | Network Enginee | Fully Meets |       3.3 |         3.0 | Project Leadership
+ 5   | 10095   | Production        | Production Tech | Fully Meets |       4.7 |         4.0 | High Engagement
+ 6   | 10291   | Sales          | Sales Manager   | Needs Improvement |       2.4 |         4.0 | Balanced Performance
+ 7   | 10024   | Software Engineering | Software Engine | Exceeds    |       4.5 |         5.0 | High Engagement
+ 8   | 10161   | Sales          | Area Sales Mana | Fully Meets |       3.7 |         3.0 | Balanced Performance
+ 9   | 10270   | Production        | Production Tech | Fully Meets |       4.4 |         3.0 | Balanced Performance
+10   | 10205   | Sales          | Area Sales Mana | Fully Meets |       2.8 |         3.0 | Balanced Performance
+11   | 10118   | IT/IS          | Database Admini | Fully Meets |       4.3 |         3.0 | Project Leadership
+12   | 10127   | IT/IS          | Sr. Network Eng | Fully Meets |       4.2 |         4.0 | Project Leadership
+13   | 10119   | IT/IS          | IT Support      | Fully Meets |       4.3 |         3.0 | Project Leadership
+14   | 10117   | Production        | Production Tech | Fully Meets |       4.4 |         5.0 | High Satisfaction
+15   | 10027   | Production        | Production Tech | Exceeds    |       4.3 |         3.0 | Outstanding Performance
+
+INTERVIEW RECOMMENDATIONS
+-----------------------
+Focus Areas:
+1. Leadership and Project Management
+   - Discuss special project experiences and outcomes
+   - Explore team collaboration and leadership style
+
+2. Engagement and Commitment
+   - Review engagement survey responses
+   - Discuss career goals and growth opportunities
+
+3. Performance and Reliability
+   - Examine performance review highlights
+   - Discuss attendance and punctuality record
+
+CLOSING NOTES
+------------
+These recommendations are based on objective metrics and model analysis. The interview process should focus on validating the identified strengths and exploring areas for potential growth. Final decisions should consider both these recommendations and standard interview assessments.

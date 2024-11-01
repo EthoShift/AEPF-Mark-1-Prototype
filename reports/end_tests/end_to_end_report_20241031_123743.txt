@@ -1,0 +1,59 @@
+================================================================================
+AEPF End-to-End Test Report
+================================================================================
+Generated: 2024-10-31 12:37:43
+Scenarios Evaluated: 3
+
+
+Scenario: TEST001
+----------------------------------------
+Context Type: medical
+Initial Score: 0.6000
+Bayesian Posterior: 0.4444
+Confidence: 0.9000
+
+Fuzzy Memberships:
+  low: 0.0000
+  medium: 1.0000
+  high: 0.0000
+
+Probability Band: ProbabilityBand.MEDIUM
+Final Decision: EthicalDecision(decision_id='1', category=<DecisionCategory.LOW_IMPACT: 'low_impact'>, recommendation=<DecisionOutcome.REVIEW: 'REVIEW'>, confidence_score=0.75, prism_scores={'human': 0.0, 'sentient': 0.0, 'eco': 0.0, 'innovation': 0.0}, context_snapshot={'context_type': 'medical', 'action': 'implement_ai_diagnosis', 'metrics': {'safety_score': 0.8, 'efficacy_score': 0.9}, 'compliance_data': {'regulatory_approval': True, 'data_protection': 'high'}, 'risk_level': 'medium', 'probability_score': 0.44444444444444453, 'fuzzy_memberships': {'low': 0.0, 'medium': 1.0, 'high': 0.0}}, reasoning=['Initial probability band: low', 'Final probability band: medium', 'Confidence level: 0.75', 'Iteration 1: Iteration 1: Adjusting for medical scenario'], risk_factors=[], mitigation_steps=[], stakeholder_impact={}, timestamp=1730378263.138342, probability_score=ProbabilityScore(raw_score=1.0, adjusted_score=0.54, band=<ProbabilityBand.MEDIUM: 'medium'>, influencing_factors={'base_score': 1.0}, cultural_adjustments={}, compliance_impacts={}, confidence_level=0.75))
+Expected Band: HIGH
+
+
+Scenario: TEST002
+----------------------------------------
+Context Type: environmental
+Initial Score: 0.7000
+Bayesian Posterior: 0.2857
+Confidence: 0.7000
+
+Fuzzy Memberships:
+  low: 0.0000
+  medium: 0.0000
+  high: 1.0000
+
+Probability Band: ProbabilityBand.HIGH
+Final Decision: EthicalDecision(decision_id='2', category=<DecisionCategory.LOW_IMPACT: 'low_impact'>, recommendation=<DecisionOutcome.APPROVE: 'APPROVE'>, confidence_score=0.8, prism_scores={'human': -0.0025, 'sentient': 0.0, 'eco': 0.045000000000000005, 'innovation': 0.015}, context_snapshot={'context_type': 'environmental', 'action': 'green_datacenter_migration', 'metrics': {'emissions_reduction': 0.7, 'energy_efficiency': 0.8}, 'compliance_data': {'environmental_standards': True, 'regulatory_compliance': True}, 'risk_level': 'low', 'probability_score': 0.28571428571428575, 'fuzzy_memberships': {'low': 0.0, 'medium': 0.0, 'high': 1.0}}, reasoning=['Initial probability band: medium', 'Final probability band: medium', 'Confidence level: 0.80'], risk_factors=['Minor negative impact detected by human prism'], mitigation_steps=['Implement impact monitoring'], stakeholder_impact={}, timestamp=1730378263.1404696, probability_score=ProbabilityScore(raw_score=1.0, adjusted_score=0.45, band=<ProbabilityBand.MEDIUM: 'medium'>, influencing_factors={'base_score': 1.0}, cultural_adjustments={}, compliance_impacts={}, confidence_level=0.8))
+Expected Band: HIGH
+
+
+Scenario: TEST003
+----------------------------------------
+Context Type: cultural
+Initial Score: 0.5000
+Bayesian Posterior: 0.6000
+Confidence: 0.7000
+
+Fuzzy Memberships:
+  low: 0.0000
+  medium: 1.0000
+  high: 0.0000
+
+Probability Band: ProbabilityBand.MEDIUM
+Final Decision: EthicalDecision(decision_id='3', category=<DecisionCategory.LOW_IMPACT: 'low_impact'>, recommendation=<DecisionOutcome.APPROVE: 'APPROVE'>, confidence_score=0.75, prism_scores={'human': -0.00409090909090909, 'sentient': 0.0, 'eco': 0.0, 'innovation': 0.0}, context_snapshot={'context_type': 'cultural', 'action': 'implement_privacy_controls', 'metrics': {}, 'compliance_data': {'privacy_standards': True, 'cultural_assessment': 'completed'}, 'risk_level': 'medium', 'probability_score': 0.6, 'fuzzy_memberships': {'low': 0.0, 'medium': 1.0, 'high': 0.0}}, reasoning=['Initial probability band: low', 'Final probability band: medium', 'Confidence level: 0.75', 'Iteration 1: Iteration 1: Adjusting for cultural scenario'], risk_factors=['Minor negative impact detected by human prism', 'Privacy considerations required'], mitigation_steps=['Implement impact monitoring', 'Implement privacy protection measures'], stakeholder_impact={}, timestamp=1730378263.1413906, probability_score=ProbabilityScore(raw_score=0.9994886363636364, adjusted_score=0.4799795454545456, band=<ProbabilityBand.MEDIUM: 'medium'>, influencing_factors={'base_score': 0.9994886363636364}, cultural_adjustments={}, compliance_impacts={}, confidence_level=0.75))
+Expected Band: MEDIUM
+
+
+================================================================================

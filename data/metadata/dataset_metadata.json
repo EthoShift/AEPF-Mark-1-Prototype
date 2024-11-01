@@ -1,0 +1,72 @@
+{
+    "medical_ethoshift_report_medical_diagnosis_system_20241031_152922_20241031": {
+        "name": "ethoshift_report_medical_diagnosis_system_20241031_152922",
+        "category": "medical",
+        "description": "Training dataset for EthoShift AI model",
+        "source": "Downloaded dataset",
+        "tags": [
+            "training",
+            "initial",
+            "medical"
+        ],
+        "created_date": "2024-10-31T15:54:43.931116",
+        "rows": 1,
+        "columns": [
+            "# Ethical Analysis Report for Medical Diagnosis System"
+        ],
+        "file_path": "data\\datasets\\medical\\medical_ethoshift_report_medical_diagnosis_system_20241031_152922_20241031.csv"
+    },
+    "hr_analytics_HRDataset_v14_20241031": {
+        "name": "HRDataset_v14",
+        "category": "hr_analytics",
+        "description": "Human Resources Analytics Dataset Version 14",
+        "source": "HR Analytics Dataset",
+        "tags": [
+            "HR",
+            "analytics",
+            "employee_data",
+            "training"
+        ],
+        "created_date": "2024-10-31T16:01:50.486443",
+        "rows": 311,
+        "columns": [
+            "Employee_Name",
+            "EmpID",
+            "MarriedID",
+            "MaritalStatusID",
+            "GenderID",
+            "EmpStatusID",
+            "DeptID",
+            "PerfScoreID",
+            "FromDiversityJobFairID",
+            "Salary",
+            "Termd",
+            "PositionID",
+            "Position",
+            "State",
+            "Zip",
+            "DOB",
+            "Sex",
+            "MaritalDesc",
+            "CitizenDesc",
+            "HispanicLatino",
+            "RaceDesc",
+            "DateofHire",
+            "DateofTermination",
+            "TermReason",
+            "EmploymentStatus",
+            "Department",
+            "ManagerName",
+            "ManagerID",
+            "RecruitmentSource",
+            "PerformanceScore",
+            "EngagementSurvey",
+            "EmpSatisfaction",
+            "SpecialProjectsCount",
+            "LastPerformanceReview_Date",
+            "DaysLateLast30",
+            "Absences"
+        ],
+        "file_path": "data\\datasets\\hr_analytics\\hr_analytics_HRDataset_v14_20241031.csv"
+    }
+}

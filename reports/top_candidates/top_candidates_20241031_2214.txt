@@ -1,0 +1,32 @@
+
+TOP CANDIDATES INTERVIEW RECOMMENDATIONS
+Generated: 2024-10-31 22:14
+
+SUMMARY
+-------
+• Selected Candidates: 0 of 311 total
+• Minimum Score Threshold: 0.80
+• Selection Criteria: High suitability and performance metrics
+
+RECOMMENDED CANDIDATES
+--------------------
+No candidates currently meet the high suitability threshold.
+
+PERFORMANCE METRICS SUMMARY
+------------------------
+Average Metrics for Selected Candidates:
+• Engagement  :    nan (Range: nan - nan)
+• Satisfaction:    nan (Range: nan - nan)
+• Projects    :    nan (Range: nan - nan)
+• Attendance  :    nan (Range: nan - nan)
+
+
+SELECTION NOTES
+-------------
+• All listed candidates exceed 80% suitability threshold
+• Recommendations based on objective performance metrics
+• Candidates listed in priority order
+• Individual strengths highlighted for interview focus
+
+Note: This report focuses on top 15 highest-scoring candidates 
+meeting or exceeding the suitability threshold.

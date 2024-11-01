@@ -1,0 +1,142 @@
+=== Top 15 Candidates Report ===
+
+Test Date: 2024-11-01 11:16:11
+
+=== Model Performance ===
+              precision    recall  f1-score   support
+
+           0       0.68      0.78      0.73        41
+           1       0.44      0.32      0.37        22
+
+    accuracy                           0.62        63
+   macro avg       0.56      0.55      0.55        63
+weighted avg       0.60      0.62      0.60        63
+
+
+=== Feature Importance ===
+                                  feature    importance
+0                                  Salary  3.671034e-01
+1                        EngagementSurvey  1.978860e-01
+5                                Absences  1.644633e-01
+3                    SpecialProjectsCount  6.105681e-02
+4                          DaysLateLast30  5.344288e-02
+2                         EmpSatisfaction  2.233695e-02
+20                 Position_Data Analyst   1.991426e-02
+36      Position_Production Technician II  1.543392e-02
+14      Position_Administrative Assistant  1.510347e-02
+12                       Department_Sales  1.385676e-02
+31              Position_Network Engineer  1.132929e-02
+6            PerformanceScore_Fully Meets  1.038184e-02
+15            Position_Area Sales Manager  1.021318e-02
+37                 Position_Sales Manager  9.617261e-03
+35       Position_Production Technician I  7.405636e-03
+22        Position_Database Administrator  5.305200e-03
+11           Department_Production         3.968556e-03
+19                  Position_Data Analyst  3.539777e-03
+40             Position_Software Engineer  3.378714e-03
+34            Position_Production Manager  2.987113e-03
+27               Position_IT Manager - DB  1.108636e-03
+10                       Department_IT/IS  9.650567e-05
+7      PerformanceScore_Needs Improvement  3.161828e-05
+23        Position_Director of Operations  1.731859e-05
+21                Position_Data Architect  1.280490e-05
+28            Position_IT Manager - Infra  8.340153e-06
+9             Department_Executive Office  5.165858e-07
+8                    PerformanceScore_PIP  0.000000e+00
+18                           Position_CIO  0.000000e+00
+25          Position_Enterprise Architect  0.000000e+00
+26                   Position_IT Director  0.000000e+00
+24             Position_Director of Sales  0.000000e+00
+17                   Position_BI Director  0.000000e+00
+16                  Position_BI Developer  0.000000e+00
+13        Department_Software Engineering  0.000000e+00
+32               Position_President & CEO  0.000000e+00
+30                    Position_IT Support  0.000000e+00
+33      Position_Principal Data Architect  0.000000e+00
+29          Position_IT Manager - Support  0.000000e+00
+38           Position_Senior BI Developer  0.000000e+00
+39       Position_Shared Services Manager  0.000000e+00
+41  Position_Software Engineering Manager  0.000000e+00
+42                Position_Sr. Accountant  0.000000e+00
+43                       Position_Sr. DBA  0.000000e+00
+44          Position_Sr. Network Engineer  0.000000e+00
+
+=== Top 15 Candidates ===
+
+Rank | Employee ID | Score | Department | Position
+----------------------------------------------------------------------
+   1 |      10071 | 0.2719 | Production        | Production Technician I
+      Performance Score: Fully Meets
+      Engagement Survey: 5.0
+      Employee Satisfaction: 5
+----------------------------------------------------------------------
+   2 |      10229 | 0.1676 | IT/IS           | Data Analyst 
+      Performance Score: Fully Meets
+      Engagement Survey: 4.2
+      Employee Satisfaction: 3
+----------------------------------------------------------------------
+   3 |      10169 | 0.1676 | Production        | Production Technician I
+      Performance Score: Fully Meets
+      Engagement Survey: 3.51
+      Employee Satisfaction: 3
+----------------------------------------------------------------------
+   4 |      10179 | 0.1676 | IT/IS           | Network Engineer
+      Performance Score: Fully Meets
+      Engagement Survey: 3.31
+      Employee Satisfaction: 3
+----------------------------------------------------------------------
+   5 |      10095 | 0.1676 | Production        | Production Technician II
+      Performance Score: Fully Meets
+      Engagement Survey: 4.68
+      Employee Satisfaction: 4
+----------------------------------------------------------------------
+   6 |      10291 | 0.1676 | Sales           | Sales Manager
+      Performance Score: Needs Improvement
+      Engagement Survey: 2.4
+      Employee Satisfaction: 4
+----------------------------------------------------------------------
+   7 |      10024 | 0.1676 | Software Engineering | Software Engineer
+      Performance Score: Exceeds
+      Engagement Survey: 4.5
+      Employee Satisfaction: 5
+----------------------------------------------------------------------
+   8 |      10161 | 0.1676 | Sales           | Area Sales Manager
+      Performance Score: Fully Meets
+      Engagement Survey: 3.69
+      Employee Satisfaction: 3
+----------------------------------------------------------------------
+   9 |      10270 | 0.1676 | Production        | Production Technician II
+      Performance Score: Fully Meets
+      Engagement Survey: 4.4
+      Employee Satisfaction: 3
+----------------------------------------------------------------------
+  10 |      10205 | 0.1676 | Sales           | Area Sales Manager
+      Performance Score: Fully Meets
+      Engagement Survey: 2.81
+      Employee Satisfaction: 3
+----------------------------------------------------------------------
+  11 |      10118 | 0.1676 | IT/IS           | Database Administrator
+      Performance Score: Fully Meets
+      Engagement Survey: 4.33
+      Employee Satisfaction: 3
+----------------------------------------------------------------------
+  12 |      10127 | 0.1676 | IT/IS           | Sr. Network Engineer
+      Performance Score: Fully Meets
+      Engagement Survey: 4.2
+      Employee Satisfaction: 4
+----------------------------------------------------------------------
+  13 |      10119 | 0.1578 | IT/IS           | IT Support
+      Performance Score: Fully Meets
+      Engagement Survey: 4.3
+      Employee Satisfaction: 3
+----------------------------------------------------------------------
+  14 |      10117 | 0.1578 | Production        | Production Technician I
+      Performance Score: Fully Meets
+      Engagement Survey: 4.36
+      Employee Satisfaction: 5
+----------------------------------------------------------------------
+  15 |      10027 | 0.1444 | Production        | Production Technician II
+      Performance Score: Exceeds
+      Engagement Survey: 4.3
+      Employee Satisfaction: 3
+----------------------------------------------------------------------

@@ -1,0 +1,1168 @@
+
+========== Bias Analysis Report ==========
+Generated: 2024-10-31 18:47:38
+
+Data Quality Checks
+-----------------
+
+GenderID:
+
+Class distribution for 0:
+- Class 0: 67.65%
+- Class 1: 32.35%
+
+Class distribution for 1:
+- Class 0: 65.52%
+- Class 1: 34.48%
+
+RaceDesc:
+WARNING: Small group sizes detected:
+- Asian: 7 samples
+- Two or more races: 3 samples
+- American Indian or Alaska Native: 1 samples
+
+Class distribution for Black or African American:
+- Class 0: 70.00%
+- Class 1: 30.00%
+
+Class distribution for White:
+- Class 0: 65.62%
+- Class 1: 34.38%
+
+Class distribution for Asian:
+- Class 0: 57.14%
+- Class 1: 42.86%
+
+Class distribution for Two or more races:
+- Class 0: 66.67%
+- Class 1: 33.33%
+
+Class distribution for American Indian or Alaska Native:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+MaritalStatusID:
+WARNING: Small group sizes detected:
+- 4: 2 samples
+- 3: 2 samples
+- 2: 6 samples
+
+Class distribution for 0:
+- Class 0: 72.00%
+- Class 1: 28.00%
+
+Class distribution for 1:
+- Class 0: 71.43%
+- Class 1: 28.57%
+
+Class distribution for 4:
+- Class 0: 50.00%
+- Class 1: 50.00%
+
+Class distribution for 3:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 2:
+- Class 0: 16.67%
+- Class 1: 83.33%
+
+Sex:
+
+Class distribution for F:
+- Class 0: 67.65%
+- Class 1: 32.35%
+
+Class distribution for M :
+- Class 0: 65.52%
+- Class 1: 34.48%
+
+HispanicLatino:
+WARNING: Small group sizes detected:
+- Yes: 4 samples
+
+Class distribution for No:
+- Class 0: 66.10%
+- Class 1: 33.90%
+
+Class distribution for Yes:
+- Class 0: 75.00%
+- Class 1: 25.00%
+
+DeptID:
+WARNING: Small group sizes detected:
+- 2: 1 samples
+- 6: 8 samples
+- 3: 8 samples
+- 1: 2 samples
+- 4: 2 samples
+
+Class distribution for 5:
+- Class 0: 54.76%
+- Class 1: 45.24%
+
+Class distribution for 2:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 6:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 3:
+- Class 0: 87.50%
+- Class 1: 12.50%
+
+Class distribution for 1:
+- Class 0: 50.00%
+- Class 1: 50.00%
+
+Class distribution for 4:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+State:
+WARNING: Small group sizes detected:
+- TX: 1 samples
+- CT: 2 samples
+- CO: 1 samples
+- NH: 1 samples
+- ID: 1 samples
+- OR: 1 samples
+- CA: 1 samples
+- AZ: 1 samples
+
+Class distribution for MA:
+- Class 0: 61.11%
+- Class 1: 38.89%
+
+Class distribution for TX:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for CT:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for CO:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for NH:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for ID:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for OR:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for CA:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for AZ:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+RecruitmentSource:
+WARNING: Small group sizes detected:
+- Diversity Job Fair: 4 samples
+- Website: 1 samples
+- Employee Referral: 3 samples
+- Google Search: 9 samples
+- CareerBuilder: 6 samples
+- Other: 1 samples
+
+Class distribution for Diversity Job Fair:
+- Class 0: 25.00%
+- Class 1: 75.00%
+
+Class distribution for Indeed:
+- Class 0: 79.17%
+- Class 1: 20.83%
+
+Class distribution for LinkedIn:
+- Class 0: 73.33%
+- Class 1: 26.67%
+
+Class distribution for Website:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for Employee Referral:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for Google Search:
+- Class 0: 22.22%
+- Class 1: 77.78%
+
+Class distribution for CareerBuilder:
+- Class 0: 83.33%
+- Class 1: 16.67%
+
+Class distribution for Other:
+- Class 0: 0.00%
+- Class 1: 100.00%
+
+EngagementSurvey:
+WARNING: Small group sizes detected:
+- 4.18: 1 samples
+- 3.25: 1 samples
+- 4.5: 3 samples
+- 4.1: 4 samples
+- 4.83: 2 samples
+- 3.4: 1 samples
+- 3.0: 3 samples
+- 3.11: 1 samples
+- 4.7: 1 samples
+- 3.13: 1 samples
+- 5.0: 5 samples
+- 3.9: 1 samples
+- 4.3: 7 samples
+- 3.31: 1 samples
+- 4.2: 5 samples
+- 2.39: 1 samples
+- 2.0: 1 samples
+- 3.6: 3 samples
+- 4.07: 1 samples
+- 3.8: 1 samples
+- 4.16: 1 samples
+- 3.98: 1 samples
+- 3.24: 1 samples
+- 3.17: 1 samples
+- 3.69: 2 samples
+- 2.33: 1 samples
+- 3.75: 1 samples
+- 3.88: 1 samples
+- 1.12: 1 samples
+- 4.77: 1 samples
+- 3.93: 1 samples
+- 2.81: 1 samples
+- 3.39: 1 samples
+- 4.13: 1 samples
+- 4.51: 1 samples
+- 4.25: 1 samples
+- 4.84: 1 samples
+- 3.79: 1 samples
+
+Class distribution for 4.18:
+- Class 0: 0.00%
+- Class 1: 100.00%
+
+Class distribution for 3.25:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 4.5:
+- Class 0: 66.67%
+- Class 1: 33.33%
+
+Class distribution for 4.1:
+- Class 0: 50.00%
+- Class 1: 50.00%
+
+Class distribution for 4.83:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 3.4:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 3.0:
+- Class 0: 33.33%
+- Class 1: 66.67%
+
+Class distribution for 3.11:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 4.7:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 3.13:
+- Class 0: 0.00%
+- Class 1: 100.00%
+
+Class distribution for 5.0:
+- Class 0: 40.00%
+- Class 1: 60.00%
+
+Class distribution for 3.9:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 4.3:
+- Class 0: 85.71%
+- Class 1: 14.29%
+
+Class distribution for 3.31:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 4.2:
+- Class 0: 80.00%
+- Class 1: 20.00%
+
+Class distribution for 2.39:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 2.0:
+- Class 0: 0.00%
+- Class 1: 100.00%
+
+Class distribution for 3.6:
+- Class 0: 33.33%
+- Class 1: 66.67%
+
+Class distribution for 4.07:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 3.8:
+- Class 0: 0.00%
+- Class 1: 100.00%
+
+Class distribution for 4.16:
+- Class 0: 0.00%
+- Class 1: 100.00%
+
+Class distribution for 3.98:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 3.24:
+- Class 0: 0.00%
+- Class 1: 100.00%
+
+Class distribution for 3.17:
+- Class 0: 0.00%
+- Class 1: 100.00%
+
+Class distribution for 3.69:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 2.33:
+- Class 0: 0.00%
+- Class 1: 100.00%
+
+Class distribution for 3.75:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 3.88:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 1.12:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 4.77:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 3.93:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 2.81:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 3.39:
+- Class 0: 0.00%
+- Class 1: 100.00%
+
+Class distribution for 4.13:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 4.51:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 4.25:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 4.84:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 3.79:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+EmpSatisfaction:
+WARNING: Small group sizes detected:
+- 1: 1 samples
+- 2: 4 samples
+
+Class distribution for 4:
+- Class 0: 56.25%
+- Class 1: 43.75%
+
+Class distribution for 5:
+- Class 0: 75.00%
+- Class 1: 25.00%
+
+Class distribution for 3:
+- Class 0: 68.18%
+- Class 1: 31.82%
+
+Class distribution for 1:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 2:
+- Class 0: 50.00%
+- Class 1: 50.00%
+
+SpecialProjectsCount:
+WARNING: Small group sizes detected:
+- 5: 8 samples
+- 6: 3 samples
+- 4: 1 samples
+
+Class distribution for 0:
+- Class 0: 62.75%
+- Class 1: 37.25%
+
+Class distribution for 5:
+- Class 0: 87.50%
+- Class 1: 12.50%
+
+Class distribution for 6:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 4:
+- Class 0: 0.00%
+- Class 1: 100.00%
+
+DaysLateLast30:
+WARNING: Small group sizes detected:
+- 2: 2 samples
+- 4: 3 samples
+- 5: 1 samples
+- 6: 2 samples
+- 3: 2 samples
+
+Class distribution for 0:
+- Class 0: 67.92%
+- Class 1: 32.08%
+
+Class distribution for 2:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 4:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 5:
+- Class 0: 0.00%
+- Class 1: 100.00%
+
+Class distribution for 6:
+- Class 0: 0.00%
+- Class 1: 100.00%
+
+Class distribution for 3:
+- Class 0: 50.00%
+- Class 1: 50.00%
+
+Absences:
+WARNING: Small group sizes detected:
+- 17: 1 samples
+- 15: 5 samples
+- 2: 2 samples
+- 7: 4 samples
+- 10: 4 samples
+- 5: 1 samples
+- 4: 5 samples
+- 1: 3 samples
+- 16: 6 samples
+- 9: 5 samples
+- 13: 5 samples
+- 19: 3 samples
+- 12: 1 samples
+- 6: 6 samples
+- 14: 4 samples
+- 11: 1 samples
+- 18: 1 samples
+- 3: 3 samples
+- 8: 2 samples
+- 20: 1 samples
+
+Class distribution for 17:
+- Class 0: 0.00%
+- Class 1: 100.00%
+
+Class distribution for 15:
+- Class 0: 80.00%
+- Class 1: 20.00%
+
+Class distribution for 2:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 7:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 10:
+- Class 0: 50.00%
+- Class 1: 50.00%
+
+Class distribution for 5:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 4:
+- Class 0: 80.00%
+- Class 1: 20.00%
+
+Class distribution for 1:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 16:
+- Class 0: 16.67%
+- Class 1: 83.33%
+
+Class distribution for 9:
+- Class 0: 80.00%
+- Class 1: 20.00%
+
+Class distribution for 13:
+- Class 0: 80.00%
+- Class 1: 20.00%
+
+Class distribution for 19:
+- Class 0: 66.67%
+- Class 1: 33.33%
+
+Class distribution for 12:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 6:
+- Class 0: 33.33%
+- Class 1: 66.67%
+
+Class distribution for 14:
+- Class 0: 50.00%
+- Class 1: 50.00%
+
+Class distribution for 11:
+- Class 0: 0.00%
+- Class 1: 100.00%
+
+Class distribution for 18:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 3:
+- Class 0: 66.67%
+- Class 1: 33.33%
+
+Class distribution for 8:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Class distribution for 20:
+- Class 0: 100.00%
+- Class 1: 0.00%
+
+Metrics Analysis
+---------------
+
+Analysis for GenderID:
+----------------------------------------
+Group Sizes:
+- 0: 34 samples
+- 1: 29 samples
+
+Accuracy Disparity: 0.0000
+
+Prediction Rates:
+- 0: 0.3235
+- 1: 0.3448
+
+Disparate Impact Ratios:
+- 1 vs 0: 1.0658
+
+Recommendations:
+- Small group size detected. Consider:
+  * Collecting more data for underrepresented groups
+  * Using data augmentation techniques
+
+Analysis for RaceDesc:
+----------------------------------------
+Group Sizes:
+- Black or African American: 20 samples
+- White: 32 samples
+- Asian: 7 samples
+- Two or more races: 3 samples
+- American Indian or Alaska Native: 1 samples
+
+Accuracy Disparity: 1.0000
+
+Prediction Rates:
+- Black or African American: 0.3000
+- White: 0.3438
+- Asian: 0.4286
+- Two or more races: 0.3333
+- American Indian or Alaska Native: 0.0000
+
+Disparate Impact Ratios:
+- White vs Black or African American: 1.1458
+- Asian vs Black or African American: 1.4286
+- Two or more races vs Black or African American: 1.1111
+- American Indian or Alaska Native vs Black or African American: 0.0000
+
+Recommendations:
+- High accuracy disparity detected. Consider:
+  * Collecting more data for underperforming groups
+  * Applying group-specific weights during training
+- Significant prediction rate disparity detected. Consider:
+  * Adjusting decision thresholds for different groups
+  * Implementing post-processing bias mitigation
+- Small group size detected. Consider:
+  * Collecting more data for underrepresented groups
+  * Using data augmentation techniques
+
+Analysis for MaritalStatusID:
+----------------------------------------
+Group Sizes:
+- 0: 25 samples
+- 1: 28 samples
+- 4: 2 samples
+- 3: 2 samples
+- 2: 6 samples
+
+Accuracy Disparity: 1.0000
+
+Prediction Rates:
+- 0: 0.2800
+- 1: 0.2857
+- 4: 0.5000
+- 3: 0.0000
+- 2: 0.8333
+
+Disparate Impact Ratios:
+- 1 vs 0: 1.0204
+- 4 vs 0: 1.7857
+- 3 vs 0: 0.0000
+- 2 vs 0: 2.9762
+
+Recommendations:
+- High accuracy disparity detected. Consider:
+  * Collecting more data for underperforming groups
+  * Applying group-specific weights during training
+- Significant prediction rate disparity detected. Consider:
+  * Adjusting decision thresholds for different groups
+  * Implementing post-processing bias mitigation
+- Small group size detected. Consider:
+  * Collecting more data for underrepresented groups
+  * Using data augmentation techniques
+
+Analysis for Sex:
+----------------------------------------
+Group Sizes:
+- F: 34 samples
+- M : 29 samples
+
+Accuracy Disparity: 0.0000
+
+Prediction Rates:
+- F: 0.3235
+- M : 0.3448
+
+Disparate Impact Ratios:
+- M  vs F: 1.0658
+
+Recommendations:
+- Small group size detected. Consider:
+  * Collecting more data for underrepresented groups
+  * Using data augmentation techniques
+
+Analysis for HispanicLatino:
+----------------------------------------
+Group Sizes:
+- No: 59 samples
+- Yes: 4 samples
+
+Accuracy Disparity: 0.0000
+
+Prediction Rates:
+- No: 0.3390
+- Yes: 0.2500
+
+Disparate Impact Ratios:
+- Yes vs No: 0.7375
+
+Recommendations:
+- Small group size detected. Consider:
+  * Collecting more data for underrepresented groups
+  * Using data augmentation techniques
+
+Analysis for DeptID:
+----------------------------------------
+Group Sizes:
+- 5: 42 samples
+- 2: 1 samples
+- 6: 8 samples
+- 3: 8 samples
+- 1: 2 samples
+- 4: 2 samples
+
+Accuracy Disparity: 1.0000
+
+Prediction Rates:
+- 5: 0.4524
+- 2: 0.0000
+- 6: 0.0000
+- 3: 0.1250
+- 1: 0.5000
+- 4: 0.0000
+
+Disparate Impact Ratios:
+- 2 vs 5: 0.0000
+- 6 vs 5: 0.0000
+- 3 vs 5: 0.2763
+- 1 vs 5: 1.1053
+- 4 vs 5: 0.0000
+
+Recommendations:
+- High accuracy disparity detected. Consider:
+  * Collecting more data for underperforming groups
+  * Applying group-specific weights during training
+- Significant prediction rate disparity detected. Consider:
+  * Adjusting decision thresholds for different groups
+  * Implementing post-processing bias mitigation
+- Small group size detected. Consider:
+  * Collecting more data for underrepresented groups
+  * Using data augmentation techniques
+
+Analysis for State:
+----------------------------------------
+Group Sizes:
+- MA: 54 samples
+- TX: 1 samples
+- CT: 2 samples
+- CO: 1 samples
+- NH: 1 samples
+- ID: 1 samples
+- OR: 1 samples
+- CA: 1 samples
+- AZ: 1 samples
+
+Accuracy Disparity: 1.0000
+
+Prediction Rates:
+- MA: 0.3889
+- TX: 0.0000
+- CT: 0.0000
+- CO: 0.0000
+- NH: 0.0000
+- ID: 0.0000
+- OR: 0.0000
+- CA: 0.0000
+- AZ: 0.0000
+
+Disparate Impact Ratios:
+- TX vs MA: 0.0000
+- CT vs MA: 0.0000
+- CO vs MA: 0.0000
+- NH vs MA: 0.0000
+- ID vs MA: 0.0000
+- OR vs MA: 0.0000
+- CA vs MA: 0.0000
+- AZ vs MA: 0.0000
+
+Recommendations:
+- High accuracy disparity detected. Consider:
+  * Collecting more data for underperforming groups
+  * Applying group-specific weights during training
+- Significant prediction rate disparity detected. Consider:
+  * Adjusting decision thresholds for different groups
+  * Implementing post-processing bias mitigation
+- Small group size detected. Consider:
+  * Collecting more data for underrepresented groups
+  * Using data augmentation techniques
+
+Analysis for RecruitmentSource:
+----------------------------------------
+Group Sizes:
+- Diversity Job Fair: 4 samples
+- Indeed: 24 samples
+- LinkedIn: 15 samples
+- Website: 1 samples
+- Employee Referral: 3 samples
+- Google Search: 9 samples
+- CareerBuilder: 6 samples
+- Other: 1 samples
+
+Accuracy Disparity: 1.0000
+
+Prediction Rates:
+- Diversity Job Fair: 0.7500
+- Indeed: 0.2083
+- LinkedIn: 0.2667
+- Website: 0.0000
+- Employee Referral: 0.0000
+- Google Search: 0.7778
+- CareerBuilder: 0.1667
+- Other: 1.0000
+
+Disparate Impact Ratios:
+- Indeed vs Diversity Job Fair: 0.2778
+- LinkedIn vs Diversity Job Fair: 0.3556
+- Website vs Diversity Job Fair: 0.0000
+- Employee Referral vs Diversity Job Fair: 0.0000
+- Google Search vs Diversity Job Fair: 1.0370
+- CareerBuilder vs Diversity Job Fair: 0.2222
+- Other vs Diversity Job Fair: 1.3333
+
+Recommendations:
+- High accuracy disparity detected. Consider:
+  * Collecting more data for underperforming groups
+  * Applying group-specific weights during training
+- Significant prediction rate disparity detected. Consider:
+  * Adjusting decision thresholds for different groups
+  * Implementing post-processing bias mitigation
+- Small group size detected. Consider:
+  * Collecting more data for underrepresented groups
+  * Using data augmentation techniques
+
+Analysis for EngagementSurvey:
+----------------------------------------
+Group Sizes:
+- 4.18: 1 samples
+- 3.25: 1 samples
+- 4.5: 3 samples
+- 4.1: 4 samples
+- 4.83: 2 samples
+- 3.4: 1 samples
+- 3.0: 3 samples
+- 3.11: 1 samples
+- 4.7: 1 samples
+- 3.13: 1 samples
+- 5.0: 5 samples
+- 3.9: 1 samples
+- 4.3: 7 samples
+- 3.31: 1 samples
+- 4.2: 5 samples
+- 2.39: 1 samples
+- 2.0: 1 samples
+- 3.6: 3 samples
+- 4.07: 1 samples
+- 3.8: 1 samples
+- 4.16: 1 samples
+- 3.98: 1 samples
+- 3.24: 1 samples
+- 3.17: 1 samples
+- 3.69: 2 samples
+- 2.33: 1 samples
+- 3.75: 1 samples
+- 3.88: 1 samples
+- 1.12: 1 samples
+- 4.77: 1 samples
+- 3.93: 1 samples
+- 2.81: 1 samples
+- 3.39: 1 samples
+- 4.13: 1 samples
+- 4.51: 1 samples
+- 4.25: 1 samples
+- 4.84: 1 samples
+- 3.79: 1 samples
+
+Accuracy Disparity: 1.0000
+
+Prediction Rates:
+- 4.18: 1.0000
+- 3.25: 0.0000
+- 4.5: 0.3333
+- 4.1: 0.5000
+- 4.83: 0.0000
+- 3.4: 0.0000
+- 3.0: 0.6667
+- 3.11: 0.0000
+- 4.7: 0.0000
+- 3.13: 1.0000
+- 5.0: 0.6000
+- 3.9: 0.0000
+- 4.3: 0.1429
+- 3.31: 0.0000
+- 4.2: 0.2000
+- 2.39: 0.0000
+- 2.0: 1.0000
+- 3.6: 0.6667
+- 4.07: 0.0000
+- 3.8: 1.0000
+- 4.16: 1.0000
+- 3.98: 0.0000
+- 3.24: 1.0000
+- 3.17: 1.0000
+- 3.69: 0.0000
+- 2.33: 1.0000
+- 3.75: 0.0000
+- 3.88: 0.0000
+- 1.12: 0.0000
+- 4.77: 0.0000
+- 3.93: 0.0000
+- 2.81: 0.0000
+- 3.39: 1.0000
+- 4.13: 0.0000
+- 4.51: 0.0000
+- 4.25: 0.0000
+- 4.84: 0.0000
+- 3.79: 0.0000
+
+Disparate Impact Ratios:
+- 3.25 vs 4.18: 0.0000
+- 4.5 vs 4.18: 0.3333
+- 4.1 vs 4.18: 0.5000
+- 4.83 vs 4.18: 0.0000
+- 3.4 vs 4.18: 0.0000
+- 3.0 vs 4.18: 0.6667
+- 3.11 vs 4.18: 0.0000
+- 4.7 vs 4.18: 0.0000
+- 3.13 vs 4.18: 1.0000
+- 5.0 vs 4.18: 0.6000
+- 3.9 vs 4.18: 0.0000
+- 4.3 vs 4.18: 0.1429
+- 3.31 vs 4.18: 0.0000
+- 4.2 vs 4.18: 0.2000
+- 2.39 vs 4.18: 0.0000
+- 2.0 vs 4.18: 1.0000
+- 3.6 vs 4.18: 0.6667
+- 4.07 vs 4.18: 0.0000
+- 3.8 vs 4.18: 1.0000
+- 4.16 vs 4.18: 1.0000
+- 3.98 vs 4.18: 0.0000
+- 3.24 vs 4.18: 1.0000
+- 3.17 vs 4.18: 1.0000
+- 3.69 vs 4.18: 0.0000
+- 2.33 vs 4.18: 1.0000
+- 3.75 vs 4.18: 0.0000
+- 3.88 vs 4.18: 0.0000
+- 1.12 vs 4.18: 0.0000
+- 4.77 vs 4.18: 0.0000
+- 3.93 vs 4.18: 0.0000
+- 2.81 vs 4.18: 0.0000
+- 3.39 vs 4.18: 1.0000
+- 4.13 vs 4.18: 0.0000
+- 4.51 vs 4.18: 0.0000
+- 4.25 vs 4.18: 0.0000
+- 4.84 vs 4.18: 0.0000
+- 3.79 vs 4.18: 0.0000
+
+Recommendations:
+- High accuracy disparity detected. Consider:
+  * Collecting more data for underperforming groups
+  * Applying group-specific weights during training
+- Significant prediction rate disparity detected. Consider:
+  * Adjusting decision thresholds for different groups
+  * Implementing post-processing bias mitigation
+- Small group size detected. Consider:
+  * Collecting more data for underrepresented groups
+  * Using data augmentation techniques
+
+Analysis for EmpSatisfaction:
+----------------------------------------
+Group Sizes:
+- 4: 16 samples
+- 5: 20 samples
+- 3: 22 samples
+- 1: 1 samples
+- 2: 4 samples
+
+Accuracy Disparity: 1.0000
+
+Prediction Rates:
+- 4: 0.4375
+- 5: 0.2500
+- 3: 0.3182
+- 1: 0.0000
+- 2: 0.5000
+
+Disparate Impact Ratios:
+- 5 vs 4: 0.5714
+- 3 vs 4: 0.7273
+- 1 vs 4: 0.0000
+- 2 vs 4: 1.1429
+
+Recommendations:
+- High accuracy disparity detected. Consider:
+  * Collecting more data for underperforming groups
+  * Applying group-specific weights during training
+- Significant prediction rate disparity detected. Consider:
+  * Adjusting decision thresholds for different groups
+  * Implementing post-processing bias mitigation
+- Small group size detected. Consider:
+  * Collecting more data for underrepresented groups
+  * Using data augmentation techniques
+
+Analysis for SpecialProjectsCount:
+----------------------------------------
+Group Sizes:
+- 0: 51 samples
+- 5: 8 samples
+- 6: 3 samples
+- 4: 1 samples
+
+Accuracy Disparity: 1.0000
+
+Prediction Rates:
+- 0: 0.3725
+- 5: 0.1250
+- 6: 0.0000
+- 4: 1.0000
+
+Disparate Impact Ratios:
+- 5 vs 0: 0.3355
+- 6 vs 0: 0.0000
+- 4 vs 0: 2.6842
+
+Recommendations:
+- High accuracy disparity detected. Consider:
+  * Collecting more data for underperforming groups
+  * Applying group-specific weights during training
+- Significant prediction rate disparity detected. Consider:
+  * Adjusting decision thresholds for different groups
+  * Implementing post-processing bias mitigation
+- Small group size detected. Consider:
+  * Collecting more data for underrepresented groups
+  * Using data augmentation techniques
+
+Analysis for DaysLateLast30:
+----------------------------------------
+Group Sizes:
+- 0: 53 samples
+- 2: 2 samples
+- 4: 3 samples
+- 5: 1 samples
+- 6: 2 samples
+- 3: 2 samples
+
+Accuracy Disparity: 1.0000
+
+Prediction Rates:
+- 0: 0.3208
+- 2: 0.0000
+- 4: 0.0000
+- 5: 1.0000
+- 6: 1.0000
+- 3: 0.5000
+
+Disparate Impact Ratios:
+- 2 vs 0: 0.0000
+- 4 vs 0: 0.0000
+- 5 vs 0: 3.1176
+- 6 vs 0: 3.1176
+- 3 vs 0: 1.5588
+
+Recommendations:
+- High accuracy disparity detected. Consider:
+  * Collecting more data for underperforming groups
+  * Applying group-specific weights during training
+- Significant prediction rate disparity detected. Consider:
+  * Adjusting decision thresholds for different groups
+  * Implementing post-processing bias mitigation
+- Small group size detected. Consider:
+  * Collecting more data for underrepresented groups
+  * Using data augmentation techniques
+
+Analysis for Absences:
+----------------------------------------
+Group Sizes:
+- 17: 1 samples
+- 15: 5 samples
+- 2: 2 samples
+- 7: 4 samples
+- 10: 4 samples
+- 5: 1 samples
+- 4: 5 samples
+- 1: 3 samples
+- 16: 6 samples
+- 9: 5 samples
+- 13: 5 samples
+- 19: 3 samples
+- 12: 1 samples
+- 6: 6 samples
+- 14: 4 samples
+- 11: 1 samples
+- 18: 1 samples
+- 3: 3 samples
+- 8: 2 samples
+- 20: 1 samples
+
+Accuracy Disparity: 1.0000
+
+Prediction Rates:
+- 17: 1.0000
+- 15: 0.2000
+- 2: 0.0000
+- 7: 0.0000
+- 10: 0.5000
+- 5: 0.0000
+- 4: 0.2000
+- 1: 0.0000
+- 16: 0.8333
+- 9: 0.2000
+- 13: 0.2000
+- 19: 0.3333
+- 12: 0.0000
+- 6: 0.6667
+- 14: 0.5000
+- 11: 1.0000
+- 18: 0.0000
+- 3: 0.3333
+- 8: 0.0000
+- 20: 0.0000
+
+Disparate Impact Ratios:
+- 15 vs 17: 0.2000
+- 2 vs 17: 0.0000
+- 7 vs 17: 0.0000
+- 10 vs 17: 0.5000
+- 5 vs 17: 0.0000
+- 4 vs 17: 0.2000
+- 1 vs 17: 0.0000
+- 16 vs 17: 0.8333
+- 9 vs 17: 0.2000
+- 13 vs 17: 0.2000
+- 19 vs 17: 0.3333
+- 12 vs 17: 0.0000
+- 6 vs 17: 0.6667
+- 14 vs 17: 0.5000
+- 11 vs 17: 1.0000
+- 18 vs 17: 0.0000
+- 3 vs 17: 0.3333
+- 8 vs 17: 0.0000
+- 20 vs 17: 0.0000
+
+Recommendations:
+- High accuracy disparity detected. Consider:
+  * Collecting more data for underperforming groups
+  * Applying group-specific weights during training
+- Significant prediction rate disparity detected. Consider:
+  * Adjusting decision thresholds for different groups
+  * Implementing post-processing bias mitigation
+- Small group size detected. Consider:
+  * Collecting more data for underrepresented groups
+  * Using data augmentation techniques
+
+========== End of Report ==========

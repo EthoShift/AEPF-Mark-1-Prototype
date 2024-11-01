@@ -1,0 +1,59 @@
+
+CANDIDATE SUITABILITY SUMMARY REPORT
+Generated: 2024-10-31 19:29
+
+OVERVIEW
+--------
+This report identifies and prioritizes candidates for interviews based on objective 
+performance metrics and suitability scores. The analysis aims to streamline the 
+interview process by highlighting candidates with strong performance indicators.
+
+SUITABILITY BREAKDOWN
+-------------------
+Total Candidates Analyzed: 311
+
+• High Suitability:   103 candidates
+  - Priority candidates for immediate interview consideration
+  - Consistently strong performance across key metrics
+  
+• Medium Suitability: 104 candidates
+  - Secondary candidates for consideration
+  - Good performance with specific areas for review
+  
+• Low Suitability:    104 candidates
+  - Not recommended for current interview round
+  - Performance metrics below target thresholds
+
+RECOMMENDED CANDIDATES
+--------------------
+Immediate Interview Recommendations:
+No candidates currently meet high priority criteria.
+
+
+Secondary Considerations:
+No candidates currently in medium priority category.
+
+
+STATISTICAL SUMMARY
+-----------------
+
+Score Type        |  Mean  |  Std Dev  |   Min   |   Max   
+-----------------|--------|-----------|---------|--------
+model_score     |  0.285 |     0.041 |   0.275 |   0.441
+performance_score |  0.610 |     0.175 |   0.000 |   1.000
+final_score     |  0.383 |     0.045 |   0.204 |   0.492
+
+KEY INSIGHTS
+-----------
+• 33.1% of candidates show high suitability • Consistent performance levels across candidates
+
+CONCLUSION
+---------
+This summary identifies 103 high-priority 
+candidates recommended for immediate interviews, with an additional 
+104 candidates suitable for secondary 
+consideration. Recommendations are based on objective performance metrics and 
+model-driven suitability assessments.
+
+Note: Individual circumstances and qualitative factors should complement these 
+data-driven recommendations in the final selection process.

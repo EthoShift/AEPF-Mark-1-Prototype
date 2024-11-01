@@ -1,0 +1,53 @@
+================================================================================
+AEPF End-to-End Test Report
+================================================================================
+Generated: 2024-10-31 12:34:47
+Scenarios Evaluated: 3
+
+
+Scenario: TEST001
+----------------------------------------
+Context Type: medical
+Initial Score: 0.6000
+Bayesian Posterior: 0.5667
+
+Fuzzy Memberships:
+  low: 0.0000
+  medium: 1.0000
+  high: 0.0000
+
+Final Decision: EthicalDecision(decision_id='error', category=<DecisionCategory.CRITICAL: 'critical'>, recommendation=<DecisionOutcome.REJECT: 'REJECT'>, confidence_score=0.0, prism_scores={}, context_snapshot=0.5666666666666668, reasoning=['Error during evaluation'], risk_factors=['Evaluation failed'], mitigation_steps=['Review system logs'], stakeholder_impact={}, timestamp=1730378087.4509585, probability_score=ProbabilityScore(raw_score=0.0, adjusted_score=0.0, band=<ProbabilityBand.LOW: 'low'>, influencing_factors={}, cultural_adjustments={}, compliance_impacts={}, confidence_level=0.0))
+Expected Band: HIGH
+
+
+Scenario: TEST002
+----------------------------------------
+Context Type: environmental
+Initial Score: 0.7000
+Bayesian Posterior: 0.7500
+
+Fuzzy Memberships:
+  low: 0.0000
+  medium: 0.0000
+  high: 1.0000
+
+Final Decision: EthicalDecision(decision_id='error', category=<DecisionCategory.CRITICAL: 'critical'>, recommendation=<DecisionOutcome.REJECT: 'REJECT'>, confidence_score=0.0, prism_scores={}, context_snapshot=0.7499999999999999, reasoning=['Error during evaluation'], risk_factors=['Evaluation failed'], mitigation_steps=['Review system logs'], stakeholder_impact={}, timestamp=1730378087.452023, probability_score=ProbabilityScore(raw_score=0.0, adjusted_score=0.0, band=<ProbabilityBand.LOW: 'low'>, influencing_factors={}, cultural_adjustments={}, compliance_impacts={}, confidence_level=0.0))
+Expected Band: HIGH
+
+
+Scenario: TEST003
+----------------------------------------
+Context Type: cultural
+Initial Score: 0.5000
+Bayesian Posterior: 0.4167
+
+Fuzzy Memberships:
+  low: 0.0000
+  medium: 1.0000
+  high: 0.0000
+
+Final Decision: EthicalDecision(decision_id='error', category=<DecisionCategory.CRITICAL: 'critical'>, recommendation=<DecisionOutcome.REJECT: 'REJECT'>, confidence_score=0.0, prism_scores={}, context_snapshot=0.4166666666666667, reasoning=['Error during evaluation'], risk_factors=['Evaluation failed'], mitigation_steps=['Review system logs'], stakeholder_impact={}, timestamp=1730378087.4522436, probability_score=ProbabilityScore(raw_score=0.0, adjusted_score=0.0, band=<ProbabilityBand.LOW: 'low'>, influencing_factors={}, cultural_adjustments={}, compliance_impacts={}, confidence_level=0.0))
+Expected Band: MEDIUM
+
+
+================================================================================
